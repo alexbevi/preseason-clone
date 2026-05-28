@@ -96,6 +96,24 @@ out so the numbers don't surprise you:
 - **No insufficient-data threshold.** The site only publishes matchups with
   ≥30 decisive cases. We render whatever rows exist.
 
+## Deploying (GitHub Pages)
+
+Two workflows in `.github/workflows/`:
+
+- `deploy.yml` — Triggered by pushes to `main` that touch `web/` or
+  `data/json/`. Builds the Vite app with `VITE_BASE=/<repo>/` and
+  publishes `web/dist/` via `actions/deploy-pages`. SPA deep links work
+  via `web/public/404.html`, which redirects unknown paths back to the
+  index where `main.tsx` rewrites history before react-router boots.
+- `scrape.yml` — Manual `workflow_dispatch` only. Runs the full
+  `inventory → plan → scrape → extract` pipeline against a cached
+  `data/raw/` directory and commits any changed `data/json/*.json` back
+  to `main`. The deploy workflow then re-publishes automatically. Default
+  workers = 2; do not exceed 3 (preseason.ai throttles around 5+).
+
+To enable: in repo Settings → Pages, set "Source" to "GitHub Actions".
+First push to `main` will deploy to `https://<user>.github.io/<repo>/`.
+
 ## Caveats
 
 - preseason.ai has no public API. All data is parsed out of HTML/RSC

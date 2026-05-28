@@ -1,7 +1,15 @@
 import { useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import type { Dataset } from "../data";
-import { fmtInt, fmtPct, orient, rollup, wilson95 } from "../synth";
+import {
+  fmtInt,
+  fmtPct,
+  orient,
+  rollup,
+  wilson95,
+  MIN_DECISIVE_CASES,
+  promptHref,
+} from "../synth";
 import type { OrientedRow } from "../synth";
 import type { BreakdownRow, Match, Tool } from "../types";
 import { ToolLogo } from "../components/ToolLogo";
@@ -18,7 +26,11 @@ function aggregateBreakdown(
   field: "perModel" | "perPrompt",
   filterSub?: string,
 ): { rows: OrientedRow[]; matchesUsed: number } {
-  type Acc = { tier: string; aPicks: number; bPicks: number; none: number; other: number };
+  type Acc = { key: string; tier: string; aPicks: number; bPicks: number; none: number; other: number };
+  // For perPrompt the same slug appears at three difficulty tiers, so we
+  // accumulate by (key, tier) to keep each prompt-level its own row. Per-model
+  // rows have no tier dimension, so their tier is empty and the composite
+  // collapses to just the model name.
   const acc = new Map<string, Acc>();
   let used = 0;
   for (const m of matches) {
@@ -27,7 +39,9 @@ function aggregateBreakdown(
     used += 1;
     const oriented = orient(m[field] as BreakdownRow[], swap);
     for (const r of oriented) {
-      const cur = acc.get(r.key) ?? {
+      const accKey = field === "perPrompt" ? `${r.key}|${r.tier}` : r.key;
+      const cur = acc.get(accKey) ?? {
+        key: r.key,
         tier: r.tier,
         aPicks: 0,
         bPicks: 0,
@@ -39,11 +53,11 @@ function aggregateBreakdown(
       cur.none += r.none;
       cur.other += r.other;
       cur.tier = cur.tier || r.tier;
-      acc.set(r.key, cur);
+      acc.set(accKey, cur);
     }
   }
-  const rows: OrientedRow[] = Array.from(acc.entries()).map(([key, v]) => ({
-    key,
+  const rows: OrientedRow[] = Array.from(acc.values()).map((v) => ({
+    key: v.key,
     tier: v.tier,
     aPicks: v.aPicks,
     bPicks: v.bPicks,
@@ -169,6 +183,8 @@ export function ToolDetail({ data }: { data: Dataset }) {
         </div>
       )}
 
+      {ranking && <PublishedStats ranking={ranking} />}
+
       <CategoryRankings data={data} slug={slug} />
 
 
@@ -197,7 +213,7 @@ export function ToolDetail({ data }: { data: Dataset }) {
 
           <div className="summary" style={{ marginTop: 16 }}>
             <div>
-              <div className="label">Aggregate win rate</div>
+              <div className="label">Aggregate decisive win rate</div>
               <div className="value" style={{ color: "var(--accent)" }}>
                 {fmtPct(headlineSummary.aWinRateConditional)}
               </div>
@@ -239,6 +255,55 @@ export function ToolDetail({ data }: { data: Dataset }) {
         </>
       )}
     </>
+  );
+}
+
+function PublishedStats({ ranking }: { ranking: import("../types").Ranking }) {
+  const trendDir =
+    ranking.trend > 0 ? "up" : ranking.trend < 0 ? "down" : "flat";
+  const trendArrow = trendDir === "up" ? "▲" : trendDir === "down" ? "▼" : "·";
+  const trendColor =
+    trendDir === "up"
+      ? "var(--good)"
+      : trendDir === "down"
+        ? "var(--bad)"
+        : "var(--text-muted)";
+  return (
+    <div className="card" style={{ marginTop: 16 }}>
+      <p className="section-title">Published stats (from preseason.ai rankings)</p>
+      <div className="summary">
+        <div>
+          <div className="label">Weighted support rate</div>
+          <div className="value" style={{ color: "var(--accent)" }}>
+            {fmtPct(ranking.weightedSupportRate)}
+          </div>
+          <div className="sub">picks / eligible (model-tier weighted)</div>
+        </div>
+        <div>
+          <div className="label">Published 95% CI</div>
+          <div className="value">
+            {fmtPct(ranking.ciLow)} – {fmtPct(ranking.ciHigh)}
+          </div>
+          <div className="sub">on weighted support rate</div>
+        </div>
+        <div>
+          <div className="label">Trend</div>
+          <div className="value" style={{ color: trendColor }}>
+            {ranking.trend === 0
+              ? "—"
+              : `${trendArrow} ${fmtPct(Math.abs(ranking.trend))}`}
+          </div>
+          <div className="sub">vs prior season</div>
+        </div>
+        <div>
+          <div className="label">Coverage</div>
+          <div className="value">
+            {fmtPct(ranking.modelCoverage)} / {fmtPct(ranking.promptCoverage)}
+          </div>
+          <div className="sub">models / prompts</div>
+        </div>
+      </div>
+    </div>
   );
 }
 
@@ -308,7 +373,17 @@ function OpponentsTable({
       label: "Opponent",
       sortValue: (r) => r.opponentName,
       render: (r) => (
-        <Link to={`/tool/${r.opponentSlug}`}>{r.opponentName}</Link>
+        <>
+          <Link to={`/tool/${r.opponentSlug}`}>{r.opponentName}</Link>
+          {r.decisive < MIN_DECISIVE_CASES && (
+            <span
+              className="flag"
+              title={`Below preseason.ai's ${MIN_DECISIVE_CASES}-decisive threshold`}
+            >
+              low n
+            </span>
+          )}
+        </>
       ),
     },
     {
@@ -341,7 +416,7 @@ function OpponentsTable({
     },
     {
       key: "rate",
-      label: "Win rate",
+      label: "Decisive win rate",
       numeric: true,
       sortValue: (r) => r.aRate,
       render: (r) => fmtPct(r.aRate),
@@ -400,7 +475,7 @@ function AggregateTable({
       sortValue: (r) => r.key,
       render: (r) =>
         rowLabel === "Prompt" ? (
-          <Link to={`/prompt/${r.key}`}>{r.key}</Link>
+          <Link to={promptHref(r.key, r.tier)}>{r.key}</Link>
         ) : (
           r.key
         ),
@@ -442,7 +517,7 @@ function AggregateTable({
     },
     {
       key: "rate",
-      label: "Win rate",
+      label: "Decisive win rate",
       numeric: true,
       sortValue: (r) => r.aRateConditional,
       render: (r) => fmtPct(r.aRateConditional),
@@ -471,7 +546,7 @@ function AggregateTable({
       <SortableTable
         columns={columns}
         rows={rows}
-        rowKey={(r) => r.key}
+        rowKey={(r) => `${r.key}|${r.tier}`}
         defaultSort={{ key: "aPicks", dir: "desc" }}
         hideEmpty={{
           label: "Hide rows where neither side was picked",

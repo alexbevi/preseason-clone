@@ -1,4 +1,5 @@
-import { fmtInt, fmtPct } from "../synth";
+import { Link } from "react-router-dom";
+import { fmtInt, fmtPct, promptHref } from "../synth";
 import type { OrientedRow } from "../synth";
 import { SortableTable } from "./SortableTable";
 import type { Column } from "./SortableTable";
@@ -22,7 +23,12 @@ export function BreakdownTable({
       key: "key",
       label: rowLabel,
       sortValue: (r) => r.key,
-      render: (r) => r.key,
+      render: (r) =>
+        rowLabel === "Prompt" ? (
+          <Link to={promptHref(r.key, r.tier)}>{r.key}</Link>
+        ) : (
+          r.key
+        ),
     },
     {
       key: "tier",
@@ -61,7 +67,7 @@ export function BreakdownTable({
     },
     {
       key: "rate",
-      label: "A win rate",
+      label: "Decisive win rate",
       numeric: true,
       sortValue: (r) => r.aRateConditional,
       render: (r) => fmtPct(r.aRateConditional),
@@ -90,7 +96,7 @@ export function BreakdownTable({
       <SortableTable
         columns={columns}
         rows={rows}
-        rowKey={(r) => r.key}
+        rowKey={(r) => `${r.key}|${r.tier}`}
         hideEmpty={{
           label: "Hide rows where neither tool was picked",
           isEmpty: (r) => r.aPicks === 0 && r.bPicks === 0,

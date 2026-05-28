@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>preseason.ai mirror</title>
+    <script>
+      // GitHub Pages SPA shim: redirect deep links (e.g. /preseason-clone/tool/foo)
+      // back to the SPA root with the original path stashed in ?p= so main.tsx
+      // can rewrite history before react-router boots.
+      // SEGMENTS_TO_KEEP = number of leading path segments owned by the host
+      // (1 for project pages: /preseason-clone, 0 for user/org root pages).
+      (function () {
+        var SEGMENTS_TO_KEEP = 1;
+        var l = window.location;
+        var pathSegs = l.pathname.split("/").slice(1);
+        var basePath = "/" + pathSegs.slice(0, SEGMENTS_TO_KEEP).join("/");
+        var rest = "/" + pathSegs.slice(SEGMENTS_TO_KEEP).join("/");
+        var search = l.search.slice(1); // strip leading "?"
+        var redirect =
+          l.protocol +
+          "//" +
+          l.hostname +
+          (l.port ? ":" + l.port : "") +
+          basePath +
+          "/?p=" +
+          encodeURIComponent(rest) +
+          (search ? "&q=" + encodeURIComponent(search) : "") +
+          l.hash;
+        l.replace(redirect);
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>

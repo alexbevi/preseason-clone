@@ -4,6 +4,8 @@ import type { Dataset } from "../data";
 import { SortableTable, type Column } from "../components/SortableTable";
 import type { Prompt } from "../types";
 
+const LEVEL_ORDER = ["beginner", "intermediate", "advanced"];
+
 export function PromptsList({ data }: { data: Dataset }) {
   const [query, setQuery] = useState("");
   const [level, setLevel] = useState("");
@@ -11,7 +13,9 @@ export function PromptsList({ data }: { data: Dataset }) {
   const levels = useMemo(() => {
     const s = new Set<string>();
     for (const p of data.prompts) s.add(p.level);
-    return Array.from(s).sort();
+    return Array.from(s).sort(
+      (a, b) => LEVEL_ORDER.indexOf(a) - LEVEL_ORDER.indexOf(b),
+    );
   }, [data]);
 
   const filtered = useMemo(() => {
@@ -20,7 +24,7 @@ export function PromptsList({ data }: { data: Dataset }) {
       if (level && p.level !== level) return false;
       if (!q) return true;
       return (
-        p.slug.includes(q) ||
+        p.slug.toLowerCase().includes(q) ||
         p.title.toLowerCase().includes(q) ||
         (p.description ?? "").toLowerCase().includes(q)
       );
@@ -53,13 +57,11 @@ export function PromptsList({ data }: { data: Dataset }) {
       </div>
 
       <div className="card">
-        <p className="section-title">
-          {filtered.length} prompts
-        </p>
+        <p className="section-title">{filtered.length} prompts</p>
         <SortableTable
           columns={promptColumns}
           rows={filtered}
-          rowKey={(p) => p.slug}
+          rowKey={(p) => `${p.slug}-${p.level}`}
         />
       </div>
     </>
@@ -73,7 +75,7 @@ const promptColumns: Column<Prompt>[] = [
     sortValue: (p) => p.title,
     render: (p) => (
       <>
-        <Link to={`/prompt/${p.slug}`}>{p.title}</Link>
+        <Link to={`/prompt/${p.slug}/${p.level}`}>{p.title}</Link>
         <div className="muted" style={{ fontSize: 12 }}>
           {p.description}
         </div>
@@ -90,7 +92,7 @@ const promptColumns: Column<Prompt>[] = [
   {
     key: "level",
     label: "Level",
-    sortValue: (p) => p.level,
+    sortValue: (p) => LEVEL_ORDER.indexOf(p.level),
     render: (p) => p.level,
     className: "tier",
   },

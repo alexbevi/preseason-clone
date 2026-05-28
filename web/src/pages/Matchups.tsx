@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import type { Dataset } from "../data";
 import { matchKey } from "../data";
-import { fmtInt, fmtPct, resolveMatch } from "../synth";
+import { fmtInt, fmtPct, resolveMatch, MIN_DECISIVE_CASES } from "../synth";
 import type { MatchupSummary } from "../synth";
 import type { Ranking, Tool } from "../types";
 import { ToolLogo } from "../components/ToolLogo";
@@ -134,6 +134,16 @@ export function Matchups({ data }: { data: Dataset }) {
 
           <SummaryCard a={a} b={b} summary={resolved.summary} />
 
+          {resolved.summary.decisiveCases < MIN_DECISIVE_CASES && (
+            <div className="notice notice-warn">
+              <strong>Insufficient data.</strong>{" "}
+              preseason.ai only publishes matchups with at least{" "}
+              {MIN_DECISIVE_CASES} decisive cases. This pair has only{" "}
+              {fmtInt(resolved.summary.decisiveCases)} — treat the numbers
+              below as directional, not benchmark-ready.
+            </div>
+          )}
+
           <BreakdownTable
             title="Per-model breakdown (scraped)"
             rowLabel="Model"
@@ -251,14 +261,14 @@ function SummaryCard({
     <>
       <div className="summary">
         <div>
-          <div className="label">{a.name} win rate</div>
+          <div className="label">{a.name} decisive win rate</div>
           <div className="value" style={{ color: "var(--accent)" }}>
             {fmtPct(aPct)}
           </div>
           <div className="sub">{fmtInt(summary.aWins)} picks</div>
         </div>
         <div>
-          <div className="label">{b.name} win rate</div>
+          <div className="label">{b.name} decisive win rate</div>
           <div className="value" style={{ color: "var(--accent-2)" }}>
             {fmtPct(bPct)}
           </div>
@@ -273,7 +283,14 @@ function SummaryCard({
         </div>
         <div>
           <div className="label">Decisive cases</div>
-          <div className="value">{fmtInt(summary.decisiveCases)}</div>
+          <div className="value">
+            {fmtInt(summary.decisiveCases)}
+            {summary.decisiveCases < MIN_DECISIVE_CASES && (
+              <span className="flag" title={`Below ${MIN_DECISIVE_CASES}-decisive threshold`}>
+                low n
+              </span>
+            )}
+          </div>
           <div className="sub">
             {fmtInt(summary.abstains)} abstains · {fmtInt(summary.otherChosen)} other
           </div>

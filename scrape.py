@@ -888,6 +888,52 @@ def _parse_prompt_detail(html: str) -> dict[str, Any] | None:
     return {"title": title_text if isinstance(title_text, str) else None, "promptText": text}
 
 
+def _parse_prompt_top_recommendations(html: str) -> list[dict[str, Any]]:
+    """Prompt detail "Top Recommendations" card: 4 tools with full-precision
+    support rates. The card is rendered as plain HTML (not just RSC payload),
+    so we slice between section headings and walk anchor/percent pairs in
+    document order. We pair each `/tools/<slug>` anchor with the next
+    full-precision percent (e.g. `14.675374567806376%`) — one such pair per
+    rendered list item, preserving the on-page rank order."""
+    i = html.find(">Top Recommendations</h3>")
+    if i < 0:
+        return []
+    j = html.find(">Description</h3>", i)
+    if j < 0:
+        return []
+    seg = html[i:j]
+
+    # Stream tokens in document order: tool anchors and percent floats.
+    # Anchors render with `title` before `href`, e.g.
+    #   <a title="PostgreSQL" ... href="/tools/postgresql">
+    tokens: list[tuple[int, str, str]] = []
+    for m in re.finditer(r'<a\s+title="([^"]+)"[^>]*href="/tools/([a-zA-Z0-9_-]+)"', seg):
+        tokens.append((m.start(), "tool", f"{m.group(2)}\t{m.group(1)}"))
+    # Next.js inserts hydration comments between adjacent text nodes, so a
+    # rendered "10.0%" can show up as `10.0<!-- -->%`. Tolerate that.
+    for m in re.finditer(r"(\d+\.\d+)(?:<!--[^>]*-->)?%", seg):
+        tokens.append((m.start(), "pct", m.group(1)))
+    tokens.sort()
+
+    out: list[dict[str, Any]] = []
+    pending: tuple[str, str] | None = None
+    for _, kind, val in tokens:
+        if kind == "tool":
+            slug, name = val.split("\t", 1)
+            pending = (slug, name)
+        elif kind == "pct" and pending is not None:
+            slug, name = pending
+            out.append({
+                "toolSlug": slug,
+                "toolName": name,
+                "supportRate": float(val) / 100,
+            })
+            pending = None
+    for rank, item in enumerate(out, start=1):
+        item["rank"] = rank
+    return out
+
+
 def extract() -> None:
     plan_path = JSON_DIR / "scrape_plan.json"
     plan_data = json.loads(plan_path.read_text())
@@ -900,6 +946,7 @@ def extract() -> None:
     tools: dict[str, dict[str, Any]] = {}
     tool_rankings: list[dict[str, Any]] = []
     prompts_detail: dict[str, dict[str, Any]] = {}
+    prompt_top_tools: list[dict[str, Any]] = []
 
     # Map "Category Name" → (groupSlug, subSlug) for tool-page parsing
     sub_name_index: dict[str, tuple[str, str]] = {}
@@ -952,6 +999,12 @@ def extract() -> None:
                     prompts_detail[u["promptId"]] = {
                         "id": u["promptId"], "level": u["level"], "slug": u["slug"], **pd,
                     }
+                for rec in _parse_prompt_top_recommendations(html):
+                    prompt_top_tools.append({
+                        "promptSlug": u["slug"],
+                        "level": u["level"],
+                        **rec,
+                    })
         except Exception as e:  # noqa: BLE001
             log.warning("Parse fail %s: %s", u["url"], e)
 
@@ -990,6 +1043,7 @@ def extract() -> None:
     (JSON_DIR / "rankings_sub.json").write_text(json.dumps(rankings_sub_dedup, indent=2))
     (JSON_DIR / "prompts.json").write_text(json.dumps(inv["prompts"], indent=2))
     (JSON_DIR / "prompts_detail.json").write_text(json.dumps(list(prompts_detail.values()), indent=2))
+    (JSON_DIR / "prompt_top_tools.json").write_text(json.dumps(prompt_top_tools, indent=2))
     (JSON_DIR / "matches_featured.json").write_text(json.dumps(inv.get("matches_featured", []), indent=2))
     (JSON_DIR / "matches.json").write_text(json.dumps(matches, indent=2))
     (JSON_DIR / "tools_detail.json").write_text(json.dumps(list(tools.values()), indent=2))
@@ -997,9 +1051,9 @@ def extract() -> None:
     (JSON_DIR / "models.json").write_text(json.dumps(list(models.values()), indent=2))
 
     log.info(
-        "Extract: %d sub-rankings, %d tool-rankings, %d matches, %d tools, %d prompt details, %d models",
+        "Extract: %d sub-rankings, %d tool-rankings, %d matches, %d tools, %d prompt details, %d prompt-top-tool rows, %d models",
         len(rankings_sub_dedup), len(tool_rankings), len(matches), len(tools),
-        len(prompts_detail), len(models),
+        len(prompts_detail), len(prompt_top_tools), len(models),
     )
 
 

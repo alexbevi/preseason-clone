@@ -13,14 +13,15 @@ type PromptToolStat = {
 };
 
 /**
- * For a single prompt slug, figure out how each tool performs across every
- * scraped match by pulling that prompt's row out of each match's perPrompt
- * breakdown. Returns a per-tool aggregate of picks/total along with a
- * sorted leaderboard.
+ * For a single (prompt slug, level) pair, figure out how each tool performs
+ * across every scraped match by pulling the matching row out of each
+ * match's perPrompt breakdown. The per-prompt rows carry both the prompt
+ * slug (in `key`) and the difficulty level (in `tier`, capitalized).
  */
 function aggregatePromptStats(
   data: Dataset,
   promptSlug: string,
+  level: string,
 ): {
   perTool: PromptToolStat[];
   totalDecisive: number;
@@ -29,9 +30,12 @@ function aggregatePromptStats(
   const acc = new Map<string, { picks: number; total: number }>();
   let totalDecisive = 0;
   let matchesUsed = 0;
+  const tierMatch = level.toLowerCase();
 
   for (const m of data.matches) {
-    const row = m.perPrompt.find((r) => r.key === promptSlug);
+    const row = m.perPrompt.find(
+      (r) => r.key === promptSlug && r.tier.toLowerCase() === tierMatch,
+    );
     if (!row) continue;
     matchesUsed += 1;
     // Treat tool A's perspective: a's picks for A on this prompt, b's for B
@@ -65,11 +69,16 @@ function aggregatePromptStats(
 }
 
 export function PromptDetail({ data }: { data: Dataset }) {
-  const { slug = "" } = useParams();
-  const prompt = data.promptBySlug.get(slug);
-  const detail = data.promptDetailBySlug.get(slug);
+  const { slug = "", level = "" } = useParams();
+  const key = `${slug}|${level}`;
+  const prompt = data.promptByKey.get(key);
+  const detail = data.promptDetailByKey.get(key);
 
-  const stats = useMemo(() => aggregatePromptStats(data, slug), [data, slug]);
+  const stats = useMemo(
+    () => aggregatePromptStats(data, slug, level),
+    [data, slug, level],
+  );
+  const topTools = data.promptTopToolsByKey.get(key) ?? [];
 
   if (!prompt) {
     return (
@@ -127,6 +136,28 @@ export function PromptDetail({ data }: { data: Dataset }) {
           </div>
         )}
       </div>
+
+      {topTools.length > 0 && (
+        <div className="card" style={{ marginTop: 16 }}>
+          <p className="section-title">
+            Top recommendations (preseason.ai)
+          </p>
+          <div className="muted" style={{ fontSize: 12, marginBottom: 12 }}>
+            Highest weighted support rate among all eligible tools for this
+            prompt-level, as published by preseason.ai.
+          </div>
+          <ol style={{ margin: 0, paddingLeft: 20 }}>
+            {topTools.map((t) => (
+              <li key={t.toolSlug} style={{ marginBottom: 4 }}>
+                <Link to={`/tool/${t.toolSlug}`}>{t.toolName}</Link>
+                <span className="muted" style={{ marginLeft: 8 }}>
+                  {fmtPct(t.supportRate, 2)}
+                </span>
+              </li>
+            ))}
+          </ol>
+        </div>
+      )}
 
       {stats.perTool.length === 0 ? (
         <div className="card empty-state" style={{ marginTop: 16 }}>

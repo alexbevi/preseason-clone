@@ -75,6 +75,18 @@ export type PromptDetail = {
   promptText: string;
 };
 
+/** "Top Recommendations" card on /prompts/{level}/{slug}: the four highest-
+ *  support tools for that exact prompt-level, with full-precision support
+ *  rate scraped from the rendered HTML. */
+export type PromptTopTool = {
+  promptSlug: string;
+  level: string;
+  toolSlug: string;
+  toolName: string;
+  supportRate: number;
+  rank: number;
+};
+
 /** One row of a match's per-model or per-prompt breakdown table. */
 export type BreakdownRow = {
   /** "Model" key for perModel rows, "Prompt" key for perPrompt rows. */

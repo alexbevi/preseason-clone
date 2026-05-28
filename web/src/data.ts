@@ -4,6 +4,7 @@ import type {
   ModelMeta,
   Prompt,
   PromptDetail,
+  PromptTopTool,
   Ranking,
   Tool,
   ToolDetail,
@@ -12,8 +13,12 @@ import type {
 } from "./types";
 
 async function loadJSON<T>(path: string): Promise<T> {
-  const r = await fetch(path);
-  if (!r.ok) throw new Error(`${path}: HTTP ${r.status}`);
+  // Resolve relative to Vite's BASE_URL so the same code works under
+  // GitHub Pages (/preseason-clone/) and local dev (/).
+  const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+  const url = path.startsWith("/") ? `${base}${path}` : path;
+  const r = await fetch(url);
+  if (!r.ok) throw new Error(`${url}: HTTP ${r.status}`);
   return (await r.json()) as T;
 }
 
@@ -65,14 +70,19 @@ export type Dataset = {
   toolRankings: ToolRanking[];
   prompts: Prompt[];
   promptsDetail: PromptDetail[];
+  promptTopTools: PromptTopTool[];
   models: ModelMeta[];
   matches: Match[];
   // lookups
   toolBySlug: Map<string, Tool>;
   toolDetailBySlug: Map<string, ToolDetail>;
   rankingBySlug: Map<string, Ranking>;
-  promptBySlug: Map<string, Prompt>;
-  promptDetailBySlug: Map<string, PromptDetail>;
+  /** Keyed by `${slug}|${level}` since each prompt slug exists at three
+   *  difficulty levels (beginner / intermediate / advanced). */
+  promptByKey: Map<string, Prompt>;
+  promptDetailByKey: Map<string, PromptDetail>;
+  /** Top-recommendations rows grouped by `${slug}|${level}`, sorted by rank ASC. */
+  promptTopToolsByKey: Map<string, PromptTopTool[]>;
   matchByPair: Map<MatchKey, Match>;
   matchesByTool: Map<string, Match[]>;
   subBySlug: Map<string, { groupSlug: string; subSlug: string; name: string }>;
@@ -91,6 +101,7 @@ export async function loadDataset(): Promise<Dataset> {
     toolRankings,
     prompts,
     promptsDetail,
+    promptTopTools,
     models,
     rawMatches,
   ] = await Promise.all([
@@ -101,6 +112,7 @@ export async function loadDataset(): Promise<Dataset> {
     loadJSON<ToolRanking[]>("/data/tool_rankings.json"),
     loadJSON<Prompt[]>("/data/prompts.json"),
     loadJSON<PromptDetail[]>("/data/prompts_detail.json"),
+    loadJSON<PromptTopTool[]>("/data/prompt_top_tools.json"),
     loadJSON<ModelMeta[]>("/data/models.json"),
     loadJSON<RawMatch[]>("/data/matches.json"),
   ]);
@@ -124,8 +136,22 @@ export async function loadDataset(): Promise<Dataset> {
   const toolBySlug = new Map(tools.map((t) => [t.slug, t]));
   const toolDetailBySlug = new Map(toolsDetail.map((t) => [t.slug, t]));
   const rankingBySlug = new Map(rankings.map((r) => [r.toolSlug, r]));
-  const promptBySlug = new Map(prompts.map((p) => [p.slug, p]));
-  const promptDetailBySlug = new Map(promptsDetail.map((p) => [p.slug, p]));
+  const promptKey = (slug: string, level: string) => `${slug}|${level}`;
+  const promptByKey = new Map(
+    prompts.map((p) => [promptKey(p.slug, p.level), p]),
+  );
+  const promptDetailByKey = new Map(
+    promptsDetail.map((p) => [promptKey(p.slug, p.level), p]),
+  );
+
+  const promptTopToolsByKey = new Map<string, PromptTopTool[]>();
+  for (const r of promptTopTools) {
+    const k = promptKey(r.promptSlug, r.level);
+    const arr = promptTopToolsByKey.get(k) ?? [];
+    arr.push(r);
+    promptTopToolsByKey.set(k, arr);
+  }
+  for (const arr of promptTopToolsByKey.values()) arr.sort((a, b) => a.rank - b.rank);
 
   const matchByPair = new Map<MatchKey, Match>();
   const matchesByTool = new Map<string, Match[]>();
@@ -177,13 +203,15 @@ export async function loadDataset(): Promise<Dataset> {
     toolRankings,
     prompts,
     promptsDetail,
+    promptTopTools,
     models,
     matches,
     toolBySlug,
     toolDetailBySlug,
     rankingBySlug,
-    promptBySlug,
-    promptDetailBySlug,
+    promptByKey,
+    promptDetailByKey,
+    promptTopToolsByKey,
     matchByPair,
     matchesByTool,
     subBySlug,

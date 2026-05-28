@@ -1,0 +1,1634 @@
+[
+  {
+    "promptSlug": "ai-revenue-ops-copilot",
+    "level": "intermediate",
+    "toolSlug": "langsmith",
+    "toolName": "LangSmith",
+    "supportRate": 0.14157228514323783,
+    "rank": 1
+  },
+  {
+    "promptSlug": "ai-revenue-ops-copilot",
+    "level": "intermediate",
+    "toolSlug": "langchain",
+    "toolName": "LangChain",
+    "supportRate": 0.0759493670886076,
+    "rank": 2
+  },
+  {
+    "promptSlug": "ai-revenue-ops-copilot",
+    "level": "intermediate",
+    "toolSlug": "postgresql",
+    "toolName": "PostgreSQL",
+    "supportRate": 0.07528314457028648,
+    "rank": 3
+  },
+  {
+    "promptSlug": "ai-revenue-ops-copilot",
+    "level": "intermediate",
+    "toolSlug": "cursor",
+    "toolName": "Cursor",
+    "supportRate": 0.06362425049966688,
+    "rank": 4
+  },
+  {
+    "promptSlug": "ai-revenue-ops-copilot",
+    "level": "advanced",
+    "toolSlug": "langsmith",
+    "toolName": "LangSmith",
+    "supportRate": 0.1226027397260274,
+    "rank": 1
+  },
+  {
+    "promptSlug": "ai-revenue-ops-copilot",
+    "level": "advanced",
+    "toolSlug": "langchain",
+    "toolName": "LangChain",
+    "supportRate": 0.07876712328767123,
+    "rank": 2
+  },
+  {
+    "promptSlug": "ai-revenue-ops-copilot",
+    "level": "advanced",
+    "toolSlug": "cursor",
+    "toolName": "Cursor",
+    "supportRate": 0.06027397260273973,
+    "rank": 3
+  },
+  {
+    "promptSlug": "ai-revenue-ops-copilot",
+    "level": "advanced",
+    "toolSlug": "postgresql",
+    "toolName": "PostgreSQL",
+    "supportRate": 0.0595890410958904,
+    "rank": 4
+  },
+  {
+    "promptSlug": "ai-revenue-ops-copilot",
+    "level": "beginner",
+    "toolSlug": "langsmith",
+    "toolName": "LangSmith",
+    "supportRate": 0.11321428571428571,
+    "rank": 1
+  },
+  {
+    "promptSlug": "ai-revenue-ops-copilot",
+    "level": "beginner",
+    "toolSlug": "openai",
+    "toolName": "OpenAI",
+    "supportRate": 0.08321428571428571,
+    "rank": 2
+  },
+  {
+    "promptSlug": "ai-revenue-ops-copilot",
+    "level": "beginner",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.07821428571428571,
+    "rank": 3
+  },
+  {
+    "promptSlug": "ai-revenue-ops-copilot",
+    "level": "beginner",
+    "toolSlug": "metabase",
+    "toolName": "Metabase",
+    "supportRate": 0.06535714285714286,
+    "rank": 4
+  },
+  {
+    "promptSlug": "ai-support-agent-platform",
+    "level": "beginner",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.11809317443120261,
+    "rank": 1
+  },
+  {
+    "promptSlug": "ai-support-agent-platform",
+    "level": "beginner",
+    "toolSlug": "supabase",
+    "toolName": "Supabase",
+    "supportRate": 0.09678584326471651,
+    "rank": 2
+  },
+  {
+    "promptSlug": "ai-support-agent-platform",
+    "level": "beginner",
+    "toolSlug": "langsmith",
+    "toolName": "LangSmith",
+    "supportRate": 0.08956301914048392,
+    "rank": 3
+  },
+  {
+    "promptSlug": "ai-support-agent-platform",
+    "level": "beginner",
+    "toolSlug": "openai",
+    "toolName": "OpenAI",
+    "supportRate": 0.0780065005417118,
+    "rank": 4
+  },
+  {
+    "promptSlug": "ai-support-agent-platform",
+    "level": "advanced",
+    "toolSlug": "langsmith",
+    "toolName": "LangSmith",
+    "supportRate": 0.11845906902086677,
+    "rank": 1
+  },
+  {
+    "promptSlug": "ai-support-agent-platform",
+    "level": "advanced",
+    "toolSlug": "auth0",
+    "toolName": "Auth0",
+    "supportRate": 0.08378812199036918,
+    "rank": 2
+  },
+  {
+    "promptSlug": "ai-support-agent-platform",
+    "level": "advanced",
+    "toolSlug": "cursor",
+    "toolName": "Cursor",
+    "supportRate": 0.060674157303370786,
+    "rank": 3
+  },
+  {
+    "promptSlug": "ai-support-agent-platform",
+    "level": "advanced",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.05682182985553772,
+    "rank": 4
+  },
+  {
+    "promptSlug": "ai-support-agent-platform",
+    "level": "intermediate",
+    "toolSlug": "langsmith",
+    "toolName": "LangSmith",
+    "supportRate": 0.15061058344640435,
+    "rank": 1
+  },
+  {
+    "promptSlug": "ai-support-agent-platform",
+    "level": "intermediate",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.09362279511533243,
+    "rank": 2
+  },
+  {
+    "promptSlug": "ai-support-agent-platform",
+    "level": "intermediate",
+    "toolSlug": "supabase",
+    "toolName": "Supabase",
+    "supportRate": 0.09260515603799185,
+    "rank": 3
+  },
+  {
+    "promptSlug": "ai-support-agent-platform",
+    "level": "intermediate",
+    "toolSlug": "auth0",
+    "toolName": "Auth0",
+    "supportRate": 0.07835820895522388,
+    "rank": 4
+  },
+  {
+    "promptSlug": "blog-platform-cms",
+    "level": "beginner",
+    "toolSlug": "ghost",
+    "toolName": "Ghost",
+    "supportRate": 0.18602498843128182,
+    "rank": 1
+  },
+  {
+    "promptSlug": "blog-platform-cms",
+    "level": "beginner",
+    "toolSlug": "algolia",
+    "toolName": "Algolia",
+    "supportRate": 0.15224433132808884,
+    "rank": 2
+  },
+  {
+    "promptSlug": "blog-platform-cms",
+    "level": "beginner",
+    "toolSlug": "tailwind-css",
+    "toolName": "Tailwind CSS",
+    "supportRate": 0.0999537251272559,
+    "rank": 3
+  },
+  {
+    "promptSlug": "blog-platform-cms",
+    "level": "beginner",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.08468301712170291,
+    "rank": 4
+  },
+  {
+    "promptSlug": "blog-platform-cms",
+    "level": "intermediate",
+    "toolSlug": "algolia",
+    "toolName": "Algolia",
+    "supportRate": 0.13971176941553243,
+    "rank": 1
+  },
+  {
+    "promptSlug": "blog-platform-cms",
+    "level": "intermediate",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.11609287429943956,
+    "rank": 2
+  },
+  {
+    "promptSlug": "blog-platform-cms",
+    "level": "intermediate",
+    "toolSlug": "tailwind-css",
+    "toolName": "Tailwind CSS",
+    "supportRate": 0.11369095276220977,
+    "rank": 3
+  },
+  {
+    "promptSlug": "blog-platform-cms",
+    "level": "intermediate",
+    "toolSlug": "postgresql",
+    "toolName": "PostgreSQL",
+    "supportRate": 0.11369095276220977,
+    "rank": 4
+  },
+  {
+    "promptSlug": "blog-platform-cms",
+    "level": "advanced",
+    "toolSlug": "postgresql",
+    "toolName": "PostgreSQL",
+    "supportRate": 0.14675374567806376,
+    "rank": 1
+  },
+  {
+    "promptSlug": "blog-platform-cms",
+    "level": "advanced",
+    "toolSlug": "tailwind-css",
+    "toolName": "Tailwind CSS",
+    "supportRate": 0.11717249327698809,
+    "rank": 2
+  },
+  {
+    "promptSlug": "blog-platform-cms",
+    "level": "advanced",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.10180560891279294,
+    "rank": 3
+  },
+  {
+    "promptSlug": "blog-platform-cms",
+    "level": "advanced",
+    "toolSlug": "algolia",
+    "toolName": "Algolia",
+    "supportRate": 0.09220130618517096,
+    "rank": 4
+  },
+  {
+    "promptSlug": "chat-application",
+    "level": "beginner",
+    "toolSlug": "firebase",
+    "toolName": "Firebase",
+    "supportRate": 0.29697452229299365,
+    "rank": 1
+  },
+  {
+    "promptSlug": "chat-application",
+    "level": "beginner",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.1035031847133758,
+    "rank": 2
+  },
+  {
+    "promptSlug": "chat-application",
+    "level": "beginner",
+    "toolSlug": "supabase",
+    "toolName": "Supabase",
+    "supportRate": 0.09832802547770701,
+    "rank": 3
+  },
+  {
+    "promptSlug": "chat-application",
+    "level": "beginner",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.06926751592356688,
+    "rank": 4
+  },
+  {
+    "promptSlug": "chat-application",
+    "level": "intermediate",
+    "toolSlug": "firebase",
+    "toolName": "Firebase",
+    "supportRate": 0.2826169646253328,
+    "rank": 1
+  },
+  {
+    "promptSlug": "chat-application",
+    "level": "intermediate",
+    "toolSlug": "supabase",
+    "toolName": "Supabase",
+    "supportRate": 0.14644351464435146,
+    "rank": 2
+  },
+  {
+    "promptSlug": "chat-application",
+    "level": "intermediate",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.08824648155192089,
+    "rank": 3
+  },
+  {
+    "promptSlug": "chat-application",
+    "level": "intermediate",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.08824648155192089,
+    "rank": 4
+  },
+  {
+    "promptSlug": "chat-application",
+    "level": "advanced",
+    "toolSlug": "postgresql",
+    "toolName": "PostgreSQL",
+    "supportRate": 0.11148272017837237,
+    "rank": 1
+  },
+  {
+    "promptSlug": "chat-application",
+    "level": "advanced",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.1111111111111111,
+    "rank": 2
+  },
+  {
+    "promptSlug": "chat-application",
+    "level": "advanced",
+    "toolSlug": "aws-s3",
+    "toolName": "AWS S3",
+    "supportRate": 0.11036789297658861,
+    "rank": 3
+  },
+  {
+    "promptSlug": "chat-application",
+    "level": "advanced",
+    "toolSlug": "firebase",
+    "toolName": "Firebase",
+    "supportRate": 0.10442214790040877,
+    "rank": 4
+  },
+  {
+    "promptSlug": "documentation-site",
+    "level": "advanced",
+    "toolSlug": "algolia",
+    "toolName": "Algolia",
+    "supportRate": 0.21208729714605487,
+    "rank": 1
+  },
+  {
+    "promptSlug": "documentation-site",
+    "level": "advanced",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.20201454952434247,
+    "rank": 2
+  },
+  {
+    "promptSlug": "documentation-site",
+    "level": "advanced",
+    "toolSlug": "tailwind-css",
+    "toolName": "Tailwind CSS",
+    "supportRate": 0.17627308337996642,
+    "rank": 3
+  },
+  {
+    "promptSlug": "documentation-site",
+    "level": "advanced",
+    "toolSlug": "contentful",
+    "toolName": "Contentful",
+    "supportRate": 0.09569110240626749,
+    "rank": 4
+  },
+  {
+    "promptSlug": "documentation-site",
+    "level": "intermediate",
+    "toolSlug": "algolia",
+    "toolName": "Algolia",
+    "supportRate": 0.22136498516320477,
+    "rank": 1
+  },
+  {
+    "promptSlug": "documentation-site",
+    "level": "intermediate",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.19050445103857566,
+    "rank": 2
+  },
+  {
+    "promptSlug": "documentation-site",
+    "level": "intermediate",
+    "toolSlug": "tailwind-css",
+    "toolName": "Tailwind CSS",
+    "supportRate": 0.17032640949554895,
+    "rank": 3
+  },
+  {
+    "promptSlug": "documentation-site",
+    "level": "intermediate",
+    "toolSlug": "docusaurus",
+    "toolName": "Docusaurus",
+    "supportRate": 0.08664688427299704,
+    "rank": 4
+  },
+  {
+    "promptSlug": "documentation-site",
+    "level": "beginner",
+    "toolSlug": "algolia",
+    "toolName": "Algolia",
+    "supportRate": 0.2774146695715323,
+    "rank": 1
+  },
+  {
+    "promptSlug": "documentation-site",
+    "level": "beginner",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.25780682643427744,
+    "rank": 2
+  },
+  {
+    "promptSlug": "documentation-site",
+    "level": "beginner",
+    "toolSlug": "docusaurus",
+    "toolName": "Docusaurus",
+    "supportRate": 0.1728395061728395,
+    "rank": 3
+  },
+  {
+    "promptSlug": "documentation-site",
+    "level": "beginner",
+    "toolSlug": "tailwind-css",
+    "toolName": "Tailwind CSS",
+    "supportRate": 0.11837327523602033,
+    "rank": 4
+  },
+  {
+    "promptSlug": "ecommerce-store",
+    "level": "beginner",
+    "toolSlug": "shopify",
+    "toolName": "Shopify",
+    "supportRate": 0.12495432955791012,
+    "rank": 1
+  },
+  {
+    "promptSlug": "ecommerce-store",
+    "level": "beginner",
+    "toolSlug": "stripe",
+    "toolName": "Stripe",
+    "supportRate": 0.11582024113993424,
+    "rank": 2
+  },
+  {
+    "promptSlug": "ecommerce-store",
+    "level": "beginner",
+    "toolSlug": "algolia",
+    "toolName": "Algolia",
+    "supportRate": 0.1154548776032152,
+    "rank": 3
+  },
+  {
+    "promptSlug": "ecommerce-store",
+    "level": "beginner",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.08987943003288272,
+    "rank": 4
+  },
+  {
+    "promptSlug": "ecommerce-store",
+    "level": "advanced",
+    "toolSlug": "stripe",
+    "toolName": "Stripe",
+    "supportRate": 0.12590952230306865,
+    "rank": 1
+  },
+  {
+    "promptSlug": "ecommerce-store",
+    "level": "advanced",
+    "toolSlug": "postgresql",
+    "toolName": "PostgreSQL",
+    "supportRate": 0.11863334387851947,
+    "rank": 2
+  },
+  {
+    "promptSlug": "ecommerce-store",
+    "level": "advanced",
+    "toolSlug": "aws-s3",
+    "toolName": "AWS S3",
+    "supportRate": 0.11800063271116736,
+    "rank": 3
+  },
+  {
+    "promptSlug": "ecommerce-store",
+    "level": "advanced",
+    "toolSlug": "auth0",
+    "toolName": "Auth0",
+    "supportRate": 0.11135716545397026,
+    "rank": 4
+  },
+  {
+    "promptSlug": "ecommerce-store",
+    "level": "intermediate",
+    "toolSlug": "stripe",
+    "toolName": "Stripe",
+    "supportRate": 0.12921727395411606,
+    "rank": 1
+  },
+  {
+    "promptSlug": "ecommerce-store",
+    "level": "intermediate",
+    "toolSlug": "algolia",
+    "toolName": "Algolia",
+    "supportRate": 0.10458839406207827,
+    "rank": 2
+  },
+  {
+    "promptSlug": "ecommerce-store",
+    "level": "intermediate",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.09919028340080972,
+    "rank": 3
+  },
+  {
+    "promptSlug": "ecommerce-store",
+    "level": "intermediate",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.09379217273954116,
+    "rank": 4
+  },
+  {
+    "promptSlug": "fitness-tracking-app",
+    "level": "beginner",
+    "toolSlug": "firebase",
+    "toolName": "Firebase",
+    "supportRate": 0.2417538213998391,
+    "rank": 1
+  },
+  {
+    "promptSlug": "fitness-tracking-app",
+    "level": "beginner",
+    "toolSlug": "supabase",
+    "toolName": "Supabase",
+    "supportRate": 0.08688656476267095,
+    "rank": 2
+  },
+  {
+    "promptSlug": "fitness-tracking-app",
+    "level": "beginner",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.07884151246983105,
+    "rank": 3
+  },
+  {
+    "promptSlug": "fitness-tracking-app",
+    "level": "beginner",
+    "toolSlug": "zustand",
+    "toolName": "Zustand",
+    "supportRate": 0.06476267095736123,
+    "rank": 4
+  },
+  {
+    "promptSlug": "fitness-tracking-app",
+    "level": "advanced",
+    "toolSlug": "auth0",
+    "toolName": "Auth0",
+    "supportRate": 0.11965491372843211,
+    "rank": 1
+  },
+  {
+    "promptSlug": "fitness-tracking-app",
+    "level": "advanced",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.11740435108777195,
+    "rank": 2
+  },
+  {
+    "promptSlug": "fitness-tracking-app",
+    "level": "advanced",
+    "toolSlug": "postgresql",
+    "toolName": "PostgreSQL",
+    "supportRate": 0.09527381845461365,
+    "rank": 3
+  },
+  {
+    "promptSlug": "fitness-tracking-app",
+    "level": "advanced",
+    "toolSlug": "aws",
+    "toolName": "AWS",
+    "supportRate": 0.08214553638409602,
+    "rank": 4
+  },
+  {
+    "promptSlug": "fitness-tracking-app",
+    "level": "intermediate",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.12546676624346528,
+    "rank": 1
+  },
+  {
+    "promptSlug": "fitness-tracking-app",
+    "level": "intermediate",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.09970126960418221,
+    "rank": 2
+  },
+  {
+    "promptSlug": "fitness-tracking-app",
+    "level": "intermediate",
+    "toolSlug": "supabase",
+    "toolName": "Supabase",
+    "supportRate": 0.09111277072442121,
+    "rank": 3
+  },
+  {
+    "promptSlug": "fitness-tracking-app",
+    "level": "intermediate",
+    "toolSlug": "mixpanel",
+    "toolName": "Mixpanel",
+    "supportRate": 0.06758775205377147,
+    "rank": 4
+  },
+  {
+    "promptSlug": "job-board",
+    "level": "beginner",
+    "toolSlug": "supabase",
+    "toolName": "Supabase",
+    "supportRate": 0.14075707460492465,
+    "rank": 1
+  },
+  {
+    "promptSlug": "job-board",
+    "level": "beginner",
+    "toolSlug": "algolia",
+    "toolName": "Algolia",
+    "supportRate": 0.12642410878353547,
+    "rank": 2
+  },
+  {
+    "promptSlug": "job-board",
+    "level": "beginner",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.12421903711870635,
+    "rank": 3
+  },
+  {
+    "promptSlug": "job-board",
+    "level": "beginner",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.10437339213524438,
+    "rank": 4
+  },
+  {
+    "promptSlug": "job-board",
+    "level": "intermediate",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.12125586430891375,
+    "rank": 1
+  },
+  {
+    "promptSlug": "job-board",
+    "level": "intermediate",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.12053410321183688,
+    "rank": 2
+  },
+  {
+    "promptSlug": "job-board",
+    "level": "intermediate",
+    "toolSlug": "algolia",
+    "toolName": "Algolia",
+    "supportRate": 0.10176831468783833,
+    "rank": 3
+  },
+  {
+    "promptSlug": "job-board",
+    "level": "intermediate",
+    "toolSlug": "aws-s3",
+    "toolName": "AWS S3",
+    "supportRate": 0.10032479249368459,
+    "rank": 4
+  },
+  {
+    "promptSlug": "job-board",
+    "level": "advanced",
+    "toolSlug": "aws-s3",
+    "toolName": "AWS S3",
+    "supportRate": 0.13733285146367907,
+    "rank": 1
+  },
+  {
+    "promptSlug": "job-board",
+    "level": "advanced",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.11890133718829057,
+    "rank": 2
+  },
+  {
+    "promptSlug": "job-board",
+    "level": "advanced",
+    "toolSlug": "auth0",
+    "toolName": "Auth0",
+    "supportRate": 0.11348030357788218,
+    "rank": 3
+  },
+  {
+    "promptSlug": "job-board",
+    "level": "advanced",
+    "toolSlug": "postgresql",
+    "toolName": "PostgreSQL",
+    "supportRate": 0.11058908565233104,
+    "rank": 4
+  },
+  {
+    "promptSlug": "multi-tenant-crm",
+    "level": "advanced",
+    "toolSlug": "aws",
+    "toolName": "AWS",
+    "supportRate": 0.12781954887218044,
+    "rank": 1
+  },
+  {
+    "promptSlug": "multi-tenant-crm",
+    "level": "advanced",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.11353383458646617,
+    "rank": 2
+  },
+  {
+    "promptSlug": "multi-tenant-crm",
+    "level": "advanced",
+    "toolSlug": "auth0",
+    "toolName": "Auth0",
+    "supportRate": 0.10338345864661652,
+    "rank": 3
+  },
+  {
+    "promptSlug": "multi-tenant-crm",
+    "level": "advanced",
+    "toolSlug": "postgresql",
+    "toolName": "PostgreSQL",
+    "supportRate": 0.09736842105263158,
+    "rank": 4
+  },
+  {
+    "promptSlug": "multi-tenant-crm",
+    "level": "beginner",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.11124794745484401,
+    "rank": 1
+  },
+  {
+    "promptSlug": "multi-tenant-crm",
+    "level": "beginner",
+    "toolSlug": "supabase",
+    "toolName": "Supabase",
+    "supportRate": 0.11042692939244664,
+    "rank": 2
+  },
+  {
+    "promptSlug": "multi-tenant-crm",
+    "level": "beginner",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.10673234811165845,
+    "rank": 3
+  },
+  {
+    "promptSlug": "multi-tenant-crm",
+    "level": "beginner",
+    "toolSlug": "sendgrid",
+    "toolName": "SendGrid",
+    "supportRate": 0.07963875205254516,
+    "rank": 4
+  },
+  {
+    "promptSlug": "multi-tenant-crm",
+    "level": "intermediate",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.12273951519815314,
+    "rank": 1
+  },
+  {
+    "promptSlug": "multi-tenant-crm",
+    "level": "intermediate",
+    "toolSlug": "sendgrid",
+    "toolName": "SendGrid",
+    "supportRate": 0.1000384763370527,
+    "rank": 2
+  },
+  {
+    "promptSlug": "multi-tenant-crm",
+    "level": "intermediate",
+    "toolSlug": "postgresql",
+    "toolName": "PostgreSQL",
+    "supportRate": 0.09926894959599845,
+    "rank": 3
+  },
+  {
+    "promptSlug": "multi-tenant-crm",
+    "level": "intermediate",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.09272797229703732,
+    "rank": 4
+  },
+  {
+    "promptSlug": "online-learning-platform",
+    "level": "intermediate",
+    "toolSlug": "stripe",
+    "toolName": "Stripe",
+    "supportRate": 0.14728682170542637,
+    "rank": 1
+  },
+  {
+    "promptSlug": "online-learning-platform",
+    "level": "intermediate",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.11369509043927647,
+    "rank": 2
+  },
+  {
+    "promptSlug": "online-learning-platform",
+    "level": "intermediate",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.11295681063122924,
+    "rank": 3
+  },
+  {
+    "promptSlug": "online-learning-platform",
+    "level": "intermediate",
+    "toolSlug": "aws-s3",
+    "toolName": "AWS S3",
+    "supportRate": 0.10335917312661498,
+    "rank": 4
+  },
+  {
+    "promptSlug": "online-learning-platform",
+    "level": "beginner",
+    "toolSlug": "stripe",
+    "toolName": "Stripe",
+    "supportRate": 0.15039878465628562,
+    "rank": 1
+  },
+  {
+    "promptSlug": "online-learning-platform",
+    "level": "beginner",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.12191416635017091,
+    "rank": 2
+  },
+  {
+    "promptSlug": "online-learning-platform",
+    "level": "beginner",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.10140524116976833,
+    "rank": 3
+  },
+  {
+    "promptSlug": "online-learning-platform",
+    "level": "beginner",
+    "toolSlug": "sendgrid",
+    "toolName": "SendGrid",
+    "supportRate": 0.08393467527535131,
+    "rank": 4
+  },
+  {
+    "promptSlug": "online-learning-platform",
+    "level": "advanced",
+    "toolSlug": "stripe",
+    "toolName": "Stripe",
+    "supportRate": 0.14501288185498712,
+    "rank": 1
+  },
+  {
+    "promptSlug": "online-learning-platform",
+    "level": "advanced",
+    "toolSlug": "auth0",
+    "toolName": "Auth0",
+    "supportRate": 0.13029076186970923,
+    "rank": 2
+  },
+  {
+    "promptSlug": "online-learning-platform",
+    "level": "advanced",
+    "toolSlug": "postgresql",
+    "toolName": "PostgreSQL",
+    "supportRate": 0.12219359587780639,
+    "rank": 3
+  },
+  {
+    "promptSlug": "online-learning-platform",
+    "level": "advanced",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.1048951048951049,
+    "rank": 4
+  },
+  {
+    "promptSlug": "project-management-tool",
+    "level": "beginner",
+    "toolSlug": "supabase",
+    "toolName": "Supabase",
+    "supportRate": 0.19130732375085557,
+    "rank": 1
+  },
+  {
+    "promptSlug": "project-management-tool",
+    "level": "beginner",
+    "toolSlug": "firebase",
+    "toolName": "Firebase",
+    "supportRate": 0.14407939767282682,
+    "rank": 2
+  },
+  {
+    "promptSlug": "project-management-tool",
+    "level": "beginner",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.11293634496919917,
+    "rank": 3
+  },
+  {
+    "promptSlug": "project-management-tool",
+    "level": "beginner",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.07529089664613278,
+    "rank": 4
+  },
+  {
+    "promptSlug": "project-management-tool",
+    "level": "advanced",
+    "toolSlug": "postgresql",
+    "toolName": "PostgreSQL",
+    "supportRate": 0.11245791245791245,
+    "rank": 1
+  },
+  {
+    "promptSlug": "project-management-tool",
+    "level": "advanced",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.1,
+    "rank": 2
+  },
+  {
+    "promptSlug": "project-management-tool",
+    "level": "advanced",
+    "toolSlug": "aws-s3",
+    "toolName": "AWS S3",
+    "supportRate": 0.09292929292929292,
+    "rank": 3
+  },
+  {
+    "promptSlug": "project-management-tool",
+    "level": "advanced",
+    "toolSlug": "auth0",
+    "toolName": "Auth0",
+    "supportRate": 0.06026936026936027,
+    "rank": 4
+  },
+  {
+    "promptSlug": "project-management-tool",
+    "level": "intermediate",
+    "toolSlug": "supabase",
+    "toolName": "Supabase",
+    "supportRate": 0.19903581267217632,
+    "rank": 1
+  },
+  {
+    "promptSlug": "project-management-tool",
+    "level": "intermediate",
+    "toolSlug": "firebase",
+    "toolName": "Firebase",
+    "supportRate": 0.14566115702479338,
+    "rank": 2
+  },
+  {
+    "promptSlug": "project-management-tool",
+    "level": "intermediate",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.10915977961432506,
+    "rank": 3
+  },
+  {
+    "promptSlug": "project-management-tool",
+    "level": "intermediate",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.0816115702479339,
+    "rank": 4
+  },
+  {
+    "promptSlug": "real-estate-website",
+    "level": "beginner",
+    "toolSlug": "supabase",
+    "toolName": "Supabase",
+    "supportRate": 0.15896843725943033,
+    "rank": 1
+  },
+  {
+    "promptSlug": "real-estate-website",
+    "level": "beginner",
+    "toolSlug": "tailwind-css",
+    "toolName": "Tailwind CSS",
+    "supportRate": 0.14511162432640493,
+    "rank": 2
+  },
+  {
+    "promptSlug": "real-estate-website",
+    "level": "beginner",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.1424172440338722,
+    "rank": 3
+  },
+  {
+    "promptSlug": "real-estate-website",
+    "level": "beginner",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.0912240184757506,
+    "rank": 4
+  },
+  {
+    "promptSlug": "real-estate-website",
+    "level": "intermediate",
+    "toolSlug": "tailwind-css",
+    "toolName": "Tailwind CSS",
+    "supportRate": 0.13561847988077497,
+    "rank": 1
+  },
+  {
+    "promptSlug": "real-estate-website",
+    "level": "intermediate",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.12630402384500744,
+    "rank": 2
+  },
+  {
+    "promptSlug": "real-estate-website",
+    "level": "intermediate",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.11438152011922503,
+    "rank": 3
+  },
+  {
+    "promptSlug": "real-estate-website",
+    "level": "intermediate",
+    "toolSlug": "supabase",
+    "toolName": "Supabase",
+    "supportRate": 0.09090909090909091,
+    "rank": 4
+  },
+  {
+    "promptSlug": "real-estate-website",
+    "level": "advanced",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.12490594431903687,
+    "rank": 1
+  },
+  {
+    "promptSlug": "real-estate-website",
+    "level": "advanced",
+    "toolSlug": "tailwind-css",
+    "toolName": "Tailwind CSS",
+    "supportRate": 0.11926260346124906,
+    "rank": 2
+  },
+  {
+    "promptSlug": "real-estate-website",
+    "level": "advanced",
+    "toolSlug": "postgresql",
+    "toolName": "PostgreSQL",
+    "supportRate": 0.10759969902182091,
+    "rank": 3
+  },
+  {
+    "promptSlug": "real-estate-website",
+    "level": "advanced",
+    "toolSlug": "auth0",
+    "toolName": "Auth0",
+    "supportRate": 0.10270880361173815,
+    "rank": 4
+  },
+  {
+    "promptSlug": "restaurant-reservation-system",
+    "level": "beginner",
+    "toolSlug": "twilio",
+    "toolName": "Twilio",
+    "supportRate": 0.1655773420479303,
+    "rank": 1
+  },
+  {
+    "promptSlug": "restaurant-reservation-system",
+    "level": "beginner",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.1542483660130719,
+    "rank": 2
+  },
+  {
+    "promptSlug": "restaurant-reservation-system",
+    "level": "beginner",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.12244008714596949,
+    "rank": 3
+  },
+  {
+    "promptSlug": "restaurant-reservation-system",
+    "level": "beginner",
+    "toolSlug": "supabase",
+    "toolName": "Supabase",
+    "supportRate": 0.12069716775599129,
+    "rank": 4
+  },
+  {
+    "promptSlug": "restaurant-reservation-system",
+    "level": "advanced",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.14121160409556313,
+    "rank": 1
+  },
+  {
+    "promptSlug": "restaurant-reservation-system",
+    "level": "advanced",
+    "toolSlug": "twilio",
+    "toolName": "Twilio",
+    "supportRate": 0.12542662116040956,
+    "rank": 2
+  },
+  {
+    "promptSlug": "restaurant-reservation-system",
+    "level": "advanced",
+    "toolSlug": "auth0",
+    "toolName": "Auth0",
+    "supportRate": 0.12372013651877133,
+    "rank": 3
+  },
+  {
+    "promptSlug": "restaurant-reservation-system",
+    "level": "advanced",
+    "toolSlug": "postgresql",
+    "toolName": "PostgreSQL",
+    "supportRate": 0.11817406143344708,
+    "rank": 4
+  },
+  {
+    "promptSlug": "restaurant-reservation-system",
+    "level": "intermediate",
+    "toolSlug": "twilio",
+    "toolName": "Twilio",
+    "supportRate": 0.15962036238136323,
+    "rank": 1
+  },
+  {
+    "promptSlug": "restaurant-reservation-system",
+    "level": "intermediate",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.1276962899050906,
+    "rank": 2
+  },
+  {
+    "promptSlug": "restaurant-reservation-system",
+    "level": "intermediate",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.12338222605694565,
+    "rank": 3
+  },
+  {
+    "promptSlug": "restaurant-reservation-system",
+    "level": "intermediate",
+    "toolSlug": "sendgrid",
+    "toolName": "SendGrid",
+    "supportRate": 0.1182053494391717,
+    "rank": 4
+  },
+  {
+    "promptSlug": "saas-application",
+    "level": "advanced",
+    "toolSlug": "stripe",
+    "toolName": "Stripe",
+    "supportRate": 0.13373453694416584,
+    "rank": 1
+  },
+  {
+    "promptSlug": "saas-application",
+    "level": "advanced",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.10698762955533267,
+    "rank": 2
+  },
+  {
+    "promptSlug": "saas-application",
+    "level": "advanced",
+    "toolSlug": "postgresql",
+    "toolName": "PostgreSQL",
+    "supportRate": 0.091942494149114,
+    "rank": 3
+  },
+  {
+    "promptSlug": "saas-application",
+    "level": "advanced",
+    "toolSlug": "aws",
+    "toolName": "AWS",
+    "supportRate": 0.07154797726512872,
+    "rank": 4
+  },
+  {
+    "promptSlug": "saas-application",
+    "level": "beginner",
+    "toolSlug": "stripe",
+    "toolName": "Stripe",
+    "supportRate": 0.12845215157353887,
+    "rank": 1
+  },
+  {
+    "promptSlug": "saas-application",
+    "level": "beginner",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.10918432883750803,
+    "rank": 2
+  },
+  {
+    "promptSlug": "saas-application",
+    "level": "beginner",
+    "toolSlug": "supabase",
+    "toolName": "Supabase",
+    "supportRate": 0.08702633269107257,
+    "rank": 3
+  },
+  {
+    "promptSlug": "saas-application",
+    "level": "beginner",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.08606294155427104,
+    "rank": 4
+  },
+  {
+    "promptSlug": "saas-application",
+    "level": "intermediate",
+    "toolSlug": "stripe",
+    "toolName": "Stripe",
+    "supportRate": 0.13209425821440424,
+    "rank": 1
+  },
+  {
+    "promptSlug": "saas-application",
+    "level": "intermediate",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.10852970461334217,
+    "rank": 2
+  },
+  {
+    "promptSlug": "saas-application",
+    "level": "intermediate",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.09127115831397278,
+    "rank": 3
+  },
+  {
+    "promptSlug": "saas-application",
+    "level": "intermediate",
+    "toolSlug": "posthog",
+    "toolName": "PostHog",
+    "supportRate": 0.08430136076999668,
+    "rank": 4
+  },
+  {
+    "promptSlug": "social-media-platform",
+    "level": "beginner",
+    "toolSlug": "firebase",
+    "toolName": "Firebase",
+    "supportRate": 0.1468554494567007,
+    "rank": 1
+  },
+  {
+    "promptSlug": "social-media-platform",
+    "level": "beginner",
+    "toolSlug": "supabase",
+    "toolName": "Supabase",
+    "supportRate": 0.11359894632861377,
+    "rank": 2
+  },
+  {
+    "promptSlug": "social-media-platform",
+    "level": "beginner",
+    "toolSlug": "algolia",
+    "toolName": "Algolia",
+    "supportRate": 0.09812314784326638,
+    "rank": 3
+  },
+  {
+    "promptSlug": "social-media-platform",
+    "level": "beginner",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.09515969706947645,
+    "rank": 4
+  },
+  {
+    "promptSlug": "social-media-platform",
+    "level": "advanced",
+    "toolSlug": "auth0",
+    "toolName": "Auth0",
+    "supportRate": 0.09372958850424559,
+    "rank": 1
+  },
+  {
+    "promptSlug": "social-media-platform",
+    "level": "advanced",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.09242325277596342,
+    "rank": 2
+  },
+  {
+    "promptSlug": "social-media-platform",
+    "level": "advanced",
+    "toolSlug": "aws-s3",
+    "toolName": "AWS S3",
+    "supportRate": 0.0852384062704115,
+    "rank": 3
+  },
+  {
+    "promptSlug": "social-media-platform",
+    "level": "advanced",
+    "toolSlug": "aws",
+    "toolName": "AWS",
+    "supportRate": 0.07152188112344873,
+    "rank": 4
+  },
+  {
+    "promptSlug": "social-media-platform",
+    "level": "intermediate",
+    "toolSlug": "firebase",
+    "toolName": "Firebase",
+    "supportRate": 0.11190168175937903,
+    "rank": 1
+  },
+  {
+    "promptSlug": "social-media-platform",
+    "level": "intermediate",
+    "toolSlug": "algolia",
+    "toolName": "Algolia",
+    "supportRate": 0.09540750323415265,
+    "rank": 2
+  },
+  {
+    "promptSlug": "social-media-platform",
+    "level": "intermediate",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.09282018111254851,
+    "rank": 3
+  },
+  {
+    "promptSlug": "social-media-platform",
+    "level": "intermediate",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.08635187580853816,
+    "rank": 4
+  },
+  {
+    "promptSlug": "url-shortener",
+    "level": "intermediate",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.15979672501411632,
+    "rank": 1
+  },
+  {
+    "promptSlug": "url-shortener",
+    "level": "intermediate",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.15923207227555053,
+    "rank": 2
+  },
+  {
+    "promptSlug": "url-shortener",
+    "level": "intermediate",
+    "toolSlug": "postgresql",
+    "toolName": "PostgreSQL",
+    "supportRate": 0.1259175607001694,
+    "rank": 3
+  },
+  {
+    "promptSlug": "url-shortener",
+    "level": "intermediate",
+    "toolSlug": "supabase",
+    "toolName": "Supabase",
+    "supportRate": 0.08921513269339357,
+    "rank": 4
+  },
+  {
+    "promptSlug": "url-shortener",
+    "level": "beginner",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.2007125890736342,
+    "rank": 1
+  },
+  {
+    "promptSlug": "url-shortener",
+    "level": "beginner",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.1502375296912114,
+    "rank": 2
+  },
+  {
+    "promptSlug": "url-shortener",
+    "level": "beginner",
+    "toolSlug": "supabase",
+    "toolName": "Supabase",
+    "supportRate": 0.10095011876484561,
+    "rank": 3
+  },
+  {
+    "promptSlug": "url-shortener",
+    "level": "beginner",
+    "toolSlug": "postgresql",
+    "toolName": "PostgreSQL",
+    "supportRate": 0.08610451306413301,
+    "rank": 4
+  },
+  {
+    "promptSlug": "url-shortener",
+    "level": "advanced",
+    "toolSlug": "postgresql",
+    "toolName": "PostgreSQL",
+    "supportRate": 0.1532567049808429,
+    "rank": 1
+  },
+  {
+    "promptSlug": "url-shortener",
+    "level": "advanced",
+    "toolSlug": "aws",
+    "toolName": "AWS",
+    "supportRate": 0.14559386973180077,
+    "rank": 2
+  },
+  {
+    "promptSlug": "url-shortener",
+    "level": "advanced",
+    "toolSlug": "prisma",
+    "toolName": "Prisma",
+    "supportRate": 0.11877394636015326,
+    "rank": 3
+  },
+  {
+    "promptSlug": "url-shortener",
+    "level": "advanced",
+    "toolSlug": "clickhouse",
+    "toolName": "ClickHouse",
+    "supportRate": 0.11330049261083744,
+    "rank": 4
+  },
+  {
+    "promptSlug": "weather-dashboard",
+    "level": "beginner",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.2032938754503345,
+    "rank": 1
+  },
+  {
+    "promptSlug": "weather-dashboard",
+    "level": "beginner",
+    "toolSlug": "tailwind-css",
+    "toolName": "Tailwind CSS",
+    "supportRate": 0.20277920741121977,
+    "rank": 2
+  },
+  {
+    "promptSlug": "weather-dashboard",
+    "level": "beginner",
+    "toolSlug": "openweathermap",
+    "toolName": "OpenWeatherMap",
+    "supportRate": 0.16366443643849718,
+    "rank": 3
+  },
+  {
+    "promptSlug": "weather-dashboard",
+    "level": "beginner",
+    "toolSlug": "zustand",
+    "toolName": "Zustand",
+    "supportRate": 0.07771487390633042,
+    "rank": 4
+  },
+  {
+    "promptSlug": "weather-dashboard",
+    "level": "advanced",
+    "toolSlug": "tailwind-css",
+    "toolName": "Tailwind CSS",
+    "supportRate": 0.19220779220779222,
+    "rank": 1
+  },
+  {
+    "promptSlug": "weather-dashboard",
+    "level": "advanced",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.187012987012987,
+    "rank": 2
+  },
+  {
+    "promptSlug": "weather-dashboard",
+    "level": "advanced",
+    "toolSlug": "tanstack-query",
+    "toolName": "TanStack Query",
+    "supportRate": 0.11116883116883117,
+    "rank": 3
+  },
+  {
+    "promptSlug": "weather-dashboard",
+    "level": "advanced",
+    "toolSlug": "openweathermap",
+    "toolName": "OpenWeatherMap",
+    "supportRate": 0.0935064935064935,
+    "rank": 4
+  },
+  {
+    "promptSlug": "weather-dashboard",
+    "level": "intermediate",
+    "toolSlug": "vercel",
+    "toolName": "Vercel",
+    "supportRate": 0.19978969505783387,
+    "rank": 1
+  },
+  {
+    "promptSlug": "weather-dashboard",
+    "level": "intermediate",
+    "toolSlug": "tailwind-css",
+    "toolName": "Tailwind CSS",
+    "supportRate": 0.19295478443743427,
+    "rank": 2
+  },
+  {
+    "promptSlug": "weather-dashboard",
+    "level": "intermediate",
+    "toolSlug": "openweathermap",
+    "toolName": "OpenWeatherMap",
+    "supportRate": 0.1719242902208202,
+    "rank": 3
+  },
+  {
+    "promptSlug": "weather-dashboard",
+    "level": "intermediate",
+    "toolSlug": "tanstack-query",
+    "toolName": "TanStack Query",
+    "supportRate": 0.1498422712933754,
+    "rank": 4
+  }
+]

@@ -46,8 +46,19 @@ export default function App() {
         <Route path="/" element={<Matchups data={data} />} />
         <Route path="/tool/:slug" element={<ToolDetail data={data} />} />
         <Route path="/prompts" element={<PromptsList data={data} />} />
-        <Route path="/prompt/:slug" element={<PromptDetail data={data} />} />
+        <Route path="/prompt/:slug/:level" element={<PromptDetail data={data} />} />
       </Routes>
+
+      <footer className="site-footer">
+        Made with <span aria-label="love">♥</span> with Claude · Code at{" "}
+        <a
+          href="https://github.com/alexbevi/preseason-clone"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          github.com/alexbevi/preseason-clone
+        </a>
+      </footer>
     </div>
   );
 }

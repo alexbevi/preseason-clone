@@ -19,6 +19,19 @@ export const fmtPct = (x: number, digits = 1): string =>
 
 export const fmtInt = (x: number): string => x.toLocaleString();
 
+/**
+ * preseason.ai's stated minimum decisive cases before they publish a
+ * matchup as benchmark-ready. We render whatever data we have, so we flag
+ * matchups below this threshold rather than hide them.
+ */
+export const MIN_DECISIVE_CASES = 30;
+
+/** Build a `/prompt/:slug/:level` href. `tier` arrives capitalized ("Beginner")
+ *  from match breakdowns; URLs use the lowercase form ("beginner") since
+ *  that's how prompts.json stores `level`. */
+export const promptHref = (slug: string, tier: string): string =>
+  `/prompt/${slug}/${tier.toLowerCase()}`;
+
 /** A breakdown row reoriented so column "a" matches the caller's A side. */
 export type OrientedRow = {
   key: string;
