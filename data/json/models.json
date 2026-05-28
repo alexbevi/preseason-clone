@@ -1,0 +1,97 @@
+[
+  {
+    "id": "c12a635e-70e3-4cfd-a347-62aaac07b1ad",
+    "label": "GLM 5 Turbo",
+    "tier": "frontier"
+  },
+  {
+    "id": "e86f3362-5fc7-495b-a1b1-ae0471e10564",
+    "label": "Kimi K2.5",
+    "tier": "frontier"
+  },
+  {
+    "id": "42d5b672-ffc7-4f3d-ac17-21aab9dee01a",
+    "label": "Gemini 2.5 Pro",
+    "tier": "frontier"
+  },
+  {
+    "id": "c8554dac-fb58-4994-a2d3-e8722a6e0848",
+    "label": "GPT 5.4",
+    "tier": "frontier"
+  },
+  {
+    "id": "c846161d-8af2-4a72-82fc-a32c6b8c030a",
+    "label": "Llama 4 Maverick",
+    "tier": "frontier"
+  },
+  {
+    "id": "d614aca0-0de4-4a1a-aa18-c456ee13c687",
+    "label": "GPT 5.3 Codex",
+    "tier": "frontier"
+  },
+  {
+    "id": "de36dd6c-7e3b-4ff8-8447-362e2259bc72",
+    "label": "Llama 4 Scout",
+    "tier": "small"
+  },
+  {
+    "id": "24043cfc-5886-41ed-9167-bc444c8b6fa6",
+    "label": "MiMo V2 Pro",
+    "tier": "frontier"
+  },
+  {
+    "id": "e46f706b-c4ae-48a8-8f54-a4c7c9764613",
+    "label": "DeepSeek R1 0528",
+    "tier": "frontier"
+  },
+  {
+    "id": "0cb206d1-392c-441b-a241-204174dafb6f",
+    "label": "GPT 5.4 Mini",
+    "tier": "mid"
+  },
+  {
+    "id": "0fbad928-7a6f-4bc8-bd0c-3d5db0837ac7",
+    "label": "Mistral Small 4",
+    "tier": "mid"
+  },
+  {
+    "id": "b8beaaef-c7b8-4cb8-bf41-f04ddeea17b3",
+    "label": "Claude Haiku 4.5",
+    "tier": "small"
+  },
+  {
+    "id": "9d95e501-a9b7-48cf-8cc3-bcd1c285e34e",
+    "label": "Claude Opus 4.6",
+    "tier": "frontier"
+  },
+  {
+    "id": "fe102828-0122-4c08-94ad-8b4995fc5c71",
+    "label": "Gemini 2.5 Flash",
+    "tier": "small"
+  },
+  {
+    "id": "38a31197-da7f-4984-9e17-64f6e38e8f53",
+    "label": "Claude Sonnet 4.6",
+    "tier": "frontier"
+  },
+  {
+    "id": "21624e07-2afe-460c-842f-6336829dac23",
+    "label": "Qwen3 Coder Next",
+    "tier": "mid"
+  },
+  {
+    "id": "5b2413e8-5ce4-4c7d-acf2-830007943f44",
+    "label": "MiniMax M2.7",
+    "tier": "frontier"
+  },
+  {
+    "id": "6ebf0039-1a7f-4ec1-b346-64437a7100c0",
+    "label": "DeepSeek V3.2",
+    "tier": "mid"
+  },
+  {
+    "id": "9f17e463-a7ac-4ca0-b194-07278c5ed9f0",
+    "label": "Devstral 2 2512",
+    "tier": "mid"
+  }
+]

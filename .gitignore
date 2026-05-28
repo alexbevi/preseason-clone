@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+*.log
+
+# Scrape cache (regeneratable, ~600 MB)
+data/raw/
+
+# Pipeline scratch files (regeneratable from scrape.py inventory + plan)
+data/json/inventory.json
+data/json/scrape_plan.json
+
+# Node / Vite
+web/node_modules/
+web/dist/
+web/dist-ssr/
+web/public/data/
+*.local
+
+# Editor / OS
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

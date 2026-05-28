@@ -1,0 +1,1617 @@
+[
+  {
+    "slug": "vercel",
+    "name": "Vercel",
+    "description": "Frontend deployment and serverless platform"
+  },
+  {
+    "slug": "prisma",
+    "name": "Prisma",
+    "description": "Next-generation Node.js and TypeScript ORM"
+  },
+  {
+    "slug": "postgresql",
+    "name": "PostgreSQL",
+    "description": null
+  },
+  {
+    "slug": "supabase",
+    "name": "Supabase",
+    "description": "Open source Firebase alternative with Postgres"
+  },
+  {
+    "slug": "auth0",
+    "name": "Auth0",
+    "description": "Flexible authentication and authorization platform"
+  },
+  {
+    "slug": "firebase",
+    "name": "Firebase",
+    "description": "Google app development platform with Firestore"
+  },
+  {
+    "slug": "algolia",
+    "name": "Algolia",
+    "description": "AI-powered search and discovery"
+  },
+  {
+    "slug": "sendgrid",
+    "name": "SendGrid",
+    "description": "Email delivery and marketing platform"
+  },
+  {
+    "slug": "aws-s3",
+    "name": "AWS S3",
+    "description": "Amazon Simple Storage Service"
+  },
+  {
+    "slug": "aws",
+    "name": "AWS",
+    "description": null
+  },
+  {
+    "slug": "tailwind-css",
+    "name": "Tailwind CSS",
+    "description": "Utility-first CSS framework"
+  },
+  {
+    "slug": "stripe",
+    "name": "Stripe",
+    "description": "Payment infrastructure for the internet"
+  },
+  {
+    "slug": "clerk",
+    "name": "Clerk",
+    "description": "Drop-in authentication and user management"
+  },
+  {
+    "slug": "resend",
+    "name": "Resend",
+    "description": "Email API for developers"
+  },
+  {
+    "slug": "langsmith",
+    "name": "LangSmith",
+    "description": "LLM application platform for observability, testing, and evaluation workflows"
+  },
+  {
+    "slug": "posthog",
+    "name": "PostHog",
+    "description": "Open source product analytics"
+  },
+  {
+    "slug": "shadcn-ui",
+    "name": "shadcn/ui",
+    "description": "Beautifully designed components built with Radix UI and Tailwind"
+  },
+  {
+    "slug": "elasticsearch",
+    "name": "Elasticsearch",
+    "description": "Distributed search and analytics engine"
+  },
+  {
+    "slug": "tanstack-query",
+    "name": "TanStack Query",
+    "description": "Asynchronous state management and server-state caching for React"
+  },
+  {
+    "slug": "mui",
+    "name": "MUI",
+    "description": "Material Design React components"
+  },
+  {
+    "slug": "mixpanel",
+    "name": "Mixpanel",
+    "description": "Product analytics for user behavior"
+  },
+  {
+    "slug": "typeorm",
+    "name": "TypeORM",
+    "description": "ORM for TypeScript and JavaScript"
+  },
+  {
+    "slug": "twilio",
+    "name": "Twilio",
+    "description": null
+  },
+  {
+    "slug": "langchain",
+    "name": "LangChain",
+    "description": "Framework for building LLM applications and agent workflows"
+  },
+  {
+    "slug": "openai",
+    "name": "OpenAI",
+    "description": "AI models including GPT and DALL-E"
+  },
+  {
+    "slug": "onesignal",
+    "name": "OneSignal",
+    "description": "Push notification service"
+  },
+  {
+    "slug": "cloudflare-r2",
+    "name": "Cloudflare R2",
+    "description": "S3-compatible object storage with zero egress"
+  },
+  {
+    "slug": "neon",
+    "name": "Neon",
+    "description": "Serverless Postgres with branching"
+  },
+  {
+    "slug": "radix-ui",
+    "name": "Radix UI",
+    "description": "Unstyled, accessible UI primitives"
+  },
+  {
+    "slug": "ably",
+    "name": "Ably",
+    "description": "Realtime messaging platform"
+  },
+  {
+    "slug": "cloudinary",
+    "name": "Cloudinary",
+    "description": "Media management and optimization"
+  },
+  {
+    "slug": "zustand",
+    "name": "Zustand",
+    "description": "Small, fast state management for React applications"
+  },
+  {
+    "slug": "openweathermap",
+    "name": "OpenWeatherMap",
+    "description": null
+  },
+  {
+    "slug": "cursor",
+    "name": "Cursor",
+    "description": "AI-native code editor with agentic coding and repo-aware assistance"
+  },
+  {
+    "slug": "braintrust",
+    "name": "Braintrust",
+    "description": "Platform for LLM observability, evaluations, and production quality loops"
+  },
+  {
+    "slug": "langfuse",
+    "name": "Langfuse",
+    "description": "Open source LLM engineering platform for tracing, prompts, and metrics"
+  },
+  {
+    "slug": "postmark",
+    "name": "Postmark",
+    "description": "Transactional email service"
+  },
+  {
+    "slug": "pusher",
+    "name": "Pusher",
+    "description": "Realtime messaging and event infrastructure"
+  },
+  {
+    "slug": "pinecone",
+    "name": "Pinecone",
+    "description": null
+  },
+  {
+    "slug": "firestore",
+    "name": "Firestore",
+    "description": null
+  },
+  {
+    "slug": "shopify",
+    "name": "Shopify",
+    "description": null
+  },
+  {
+    "slug": "ghost",
+    "name": "Ghost",
+    "description": null
+  },
+  {
+    "slug": "sanity",
+    "name": "Sanity",
+    "description": "Structured content platform"
+  },
+  {
+    "slug": "railway",
+    "name": "Railway",
+    "description": "Infrastructure platform for deployment"
+  },
+  {
+    "slug": "metabase",
+    "name": "Metabase",
+    "description": null
+  },
+  {
+    "slug": "docusaurus",
+    "name": "Docusaurus",
+    "description": "Documentation site generator and content publishing framework"
+  },
+  {
+    "slug": "redux",
+    "name": "Redux",
+    "description": null
+  },
+  {
+    "slug": "redux-toolkit",
+    "name": "Redux Toolkit",
+    "description": "Standard Redux tooling for state and async logic"
+  },
+  {
+    "slug": "fly-io",
+    "name": "Fly.io",
+    "description": "Global application platform"
+  },
+  {
+    "slug": "contentful",
+    "name": "Contentful",
+    "description": "Headless content management"
+  },
+  {
+    "slug": "fastapi",
+    "name": "FastAPI",
+    "description": null
+  },
+  {
+    "slug": "novu",
+    "name": "Novu",
+    "description": "Open source notification infrastructure"
+  },
+  {
+    "slug": "render",
+    "name": "Render",
+    "description": "Cloud application hosting"
+  },
+  {
+    "slug": "clickhouse",
+    "name": "ClickHouse",
+    "description": null
+  },
+  {
+    "slug": "heroku",
+    "name": "Heroku",
+    "description": null
+  },
+  {
+    "slug": "amazon-rds",
+    "name": "Amazon RDS",
+    "description": null
+  },
+  {
+    "slug": "next-js",
+    "name": "Next.js",
+    "description": null
+  },
+  {
+    "slug": "react",
+    "name": "React",
+    "description": null
+  },
+  {
+    "slug": "recharts",
+    "name": "Recharts",
+    "description": null
+  },
+  {
+    "slug": "arize-ai",
+    "name": "Arize AI",
+    "description": null
+  },
+  {
+    "slug": "kong",
+    "name": "Kong",
+    "description": null
+  },
+  {
+    "slug": "google-analytics",
+    "name": "Google Analytics",
+    "description": "Web analytics service by Google"
+  },
+  {
+    "slug": "snowflake",
+    "name": "Snowflake",
+    "description": null
+  },
+  {
+    "slug": "amazon-aurora-postgresql",
+    "name": "Amazon Aurora PostgreSQL",
+    "description": null
+  },
+  {
+    "slug": "strapi",
+    "name": "Strapi",
+    "description": "Open source headless CMS"
+  },
+  {
+    "slug": "stream",
+    "name": "Stream",
+    "description": null
+  },
+  {
+    "slug": "chakra-ui",
+    "name": "Chakra UI",
+    "description": "Simple, modular and accessible component library"
+  },
+  {
+    "slug": "github-copilot",
+    "name": "GitHub Copilot",
+    "description": null
+  },
+  {
+    "slug": "langgraph",
+    "name": "LangGraph",
+    "description": null
+  },
+  {
+    "slug": "mailgun",
+    "name": "Mailgun",
+    "description": "Email API service for developers"
+  },
+  {
+    "slug": "trpc",
+    "name": "tRPC",
+    "description": "End-to-end typesafe APIs for TypeScript"
+  },
+  {
+    "slug": "datadog",
+    "name": "Datadog",
+    "description": "Cloud monitoring and observability"
+  },
+  {
+    "slug": "segment",
+    "name": "Segment",
+    "description": null
+  },
+  {
+    "slug": "mailchimp",
+    "name": "Mailchimp",
+    "description": null
+  },
+  {
+    "slug": "knock",
+    "name": "Knock",
+    "description": null
+  },
+  {
+    "slug": "merge",
+    "name": "Merge",
+    "description": null
+  },
+  {
+    "slug": "socket-io",
+    "name": "Socket.io",
+    "description": "Bidirectional event-based communication"
+  },
+  {
+    "slug": "mongodb",
+    "name": "MongoDB",
+    "description": null
+  },
+  {
+    "slug": "mux",
+    "name": "Mux",
+    "description": null
+  },
+  {
+    "slug": "planetscale",
+    "name": "PlanetScale",
+    "description": "Serverless MySQL platform"
+  },
+  {
+    "slug": "liveblocks",
+    "name": "Liveblocks",
+    "description": null
+  },
+  {
+    "slug": "google-cloud-platform-gcp",
+    "name": "Google Cloud Platform (GCP)",
+    "description": null
+  },
+  {
+    "slug": "apollo-graphql",
+    "name": "Apollo GraphQL",
+    "description": "GraphQL implementation for JavaScript"
+  },
+  {
+    "slug": "meilisearch",
+    "name": "Meilisearch",
+    "description": "Lightning-fast open source search engine"
+  },
+  {
+    "slug": "amazon-sns",
+    "name": "Amazon SNS",
+    "description": null
+  },
+  {
+    "slug": "sqlalchemy",
+    "name": "SQLAlchemy",
+    "description": null
+  },
+  {
+    "slug": "okta",
+    "name": "Okta",
+    "description": null
+  },
+  {
+    "slug": "anthropic",
+    "name": "Anthropic",
+    "description": "AI safety company building Claude"
+  },
+  {
+    "slug": "drizzle",
+    "name": "Drizzle",
+    "description": "TypeScript ORM with SQL-like syntax"
+  },
+  {
+    "slug": "tinybird",
+    "name": "Tinybird",
+    "description": null
+  },
+  {
+    "slug": "cloudflare-workers",
+    "name": "Cloudflare Workers",
+    "description": null
+  },
+  {
+    "slug": "salesforce-api",
+    "name": "Salesforce API",
+    "description": null
+  },
+  {
+    "slug": "amplitude",
+    "name": "Amplitude",
+    "description": null
+  },
+  {
+    "slug": "weights-biases",
+    "name": "Weights & Biases",
+    "description": null
+  },
+  {
+    "slug": "cockroachdb",
+    "name": "CockroachDB",
+    "description": null
+  },
+  {
+    "slug": "intercom",
+    "name": "Intercom",
+    "description": null
+  },
+  {
+    "slug": "redis",
+    "name": "Redis",
+    "description": null
+  },
+  {
+    "slug": "netlify",
+    "name": "Netlify",
+    "description": "Web development platform for modern sites"
+  },
+  {
+    "slug": "plausible",
+    "name": "Plausible",
+    "description": "Privacy-friendly web analytics"
+  },
+  {
+    "slug": "claude-code",
+    "name": "Claude Code",
+    "description": "Anthropic coding agent for terminal-first software development tasks"
+  },
+  {
+    "slug": "opensearch",
+    "name": "OpenSearch",
+    "description": null
+  },
+  {
+    "slug": "amazon-ses",
+    "name": "Amazon SES",
+    "description": "AWS email sending service"
+  },
+  {
+    "slug": "tableau",
+    "name": "Tableau",
+    "description": null
+  },
+  {
+    "slug": "hubspot",
+    "name": "HubSpot",
+    "description": null
+  },
+  {
+    "slug": "timescaledb",
+    "name": "TimescaleDB",
+    "description": null
+  },
+  {
+    "slug": "hasura",
+    "name": "Hasura",
+    "description": null
+  },
+  {
+    "slug": "apache-kafka",
+    "name": "Apache Kafka",
+    "description": null
+  },
+  {
+    "slug": "workos",
+    "name": "WorkOS",
+    "description": null
+  },
+  {
+    "slug": "ragas",
+    "name": "Ragas",
+    "description": "Framework for evaluating retrieval-augmented generation and agent quality"
+  },
+  {
+    "slug": "aws-amplify",
+    "name": "AWS Amplify",
+    "description": null
+  },
+  {
+    "slug": "airbyte",
+    "name": "Airbyte",
+    "description": null
+  },
+  {
+    "slug": "shopify-payments",
+    "name": "Shopify Payments",
+    "description": null
+  },
+  {
+    "slug": "digitalocean",
+    "name": "DigitalOcean",
+    "description": null
+  },
+  {
+    "slug": "react-native-paper",
+    "name": "React Native Paper",
+    "description": null
+  },
+  {
+    "slug": "temporal",
+    "name": "Temporal",
+    "description": null
+  },
+  {
+    "slug": "tomorrow-io",
+    "name": "Tomorrow.io",
+    "description": null
+  },
+  {
+    "slug": "typesense",
+    "name": "Typesense",
+    "description": "Open source search engine"
+  },
+  {
+    "slug": "deepeval",
+    "name": "DeepEval",
+    "description": "Open source LLM evaluation framework for unit, regression, and agent tests"
+  },
+  {
+    "slug": "nextauth",
+    "name": "NextAuth.js",
+    "description": "Authentication for Next.js"
+  },
+  {
+    "slug": "kubernetes",
+    "name": "Kubernetes",
+    "description": null
+  },
+  {
+    "slug": "tremor",
+    "name": "Tremor",
+    "description": null
+  },
+  {
+    "slug": "postman",
+    "name": "Postman",
+    "description": null
+  },
+  {
+    "slug": "inngest",
+    "name": "Inngest",
+    "description": "Durable functions and event-driven workflows"
+  },
+  {
+    "slug": "payload-cms",
+    "name": "Payload CMS",
+    "description": "TypeScript-first headless CMS"
+  },
+  {
+    "slug": "django",
+    "name": "Django",
+    "description": null
+  },
+  {
+    "slug": "webflow",
+    "name": "Webflow",
+    "description": null
+  },
+  {
+    "slug": "shopify-email",
+    "name": "Shopify Email",
+    "description": null
+  },
+  {
+    "slug": "apigee",
+    "name": "Apigee",
+    "description": null
+  },
+  {
+    "slug": "looker",
+    "name": "Looker",
+    "description": null
+  },
+  {
+    "slug": "nestjs",
+    "name": "NestJS",
+    "description": "Progressive Node.js framework for scalable server applications"
+  },
+  {
+    "slug": "tailwind-ui",
+    "name": "Tailwind UI",
+    "description": null
+  },
+  {
+    "slug": "express",
+    "name": "Express",
+    "description": "Minimal and flexible web framework for Node.js"
+  },
+  {
+    "slug": "humanloop",
+    "name": "Humanloop",
+    "description": null
+  },
+  {
+    "slug": "courier",
+    "name": "Courier",
+    "description": null
+  },
+  {
+    "slug": "hex",
+    "name": "Hex",
+    "description": null
+  },
+  {
+    "slug": "klaviyo",
+    "name": "Klaviyo",
+    "description": null
+  },
+  {
+    "slug": "google-bigquery",
+    "name": "Google BigQuery",
+    "description": null
+  },
+  {
+    "slug": "arize-phoenix",
+    "name": "Arize Phoenix",
+    "description": "Open source observability and evaluation tooling for LLM and agent systems"
+  },
+  {
+    "slug": "chart-js",
+    "name": "Chart.js",
+    "description": null
+  },
+  {
+    "slug": "open-meteo",
+    "name": "Open-Meteo",
+    "description": null
+  },
+  {
+    "slug": "pubnub",
+    "name": "PubNub",
+    "description": "Realtime messaging and event infrastructure platform"
+  },
+  {
+    "slug": "cloudflare",
+    "name": "Cloudflare",
+    "description": null
+  },
+  {
+    "slug": "retool",
+    "name": "Retool",
+    "description": null
+  },
+  {
+    "slug": "elastic-cloud",
+    "name": "Elastic Cloud",
+    "description": null
+  },
+  {
+    "slug": "mantine",
+    "name": "Mantine",
+    "description": "Full-featured React component library"
+  },
+  {
+    "slug": "amazon-dynamodb",
+    "name": "Amazon DynamoDB",
+    "description": null
+  },
+  {
+    "slug": "weatherapi-com",
+    "name": "WeatherAPI.com",
+    "description": null
+  },
+  {
+    "slug": "anthropic-claude-api",
+    "name": "Anthropic Claude API",
+    "description": null
+  },
+  {
+    "slug": "google-cloud-storage",
+    "name": "Google Cloud Storage",
+    "description": null
+  },
+  {
+    "slug": "teachable",
+    "name": "Teachable",
+    "description": null
+  },
+  {
+    "slug": "bitly",
+    "name": "Bitly",
+    "description": null
+  },
+  {
+    "slug": "mysql",
+    "name": "MySQL",
+    "description": null
+  },
+  {
+    "slug": "vellum",
+    "name": "Vellum",
+    "description": null
+  },
+  {
+    "slug": "github",
+    "name": "GitHub",
+    "description": null
+  },
+  {
+    "slug": "gitbook",
+    "name": "GitBook",
+    "description": null
+  },
+  {
+    "slug": "gcp-vertex-ai",
+    "name": "GCP Vertex AI",
+    "description": null
+  },
+  {
+    "slug": "wordpress",
+    "name": "WordPress",
+    "description": null
+  },
+  {
+    "slug": "fivetran",
+    "name": "Fivetran",
+    "description": null
+  },
+  {
+    "slug": "llamaindex",
+    "name": "LlamaIndex",
+    "description": null
+  },
+  {
+    "slug": "humanfirst",
+    "name": "HumanFirst",
+    "description": null
+  },
+  {
+    "slug": "continue",
+    "name": "Continue",
+    "description": null
+  },
+  {
+    "slug": "cube-js",
+    "name": "Cube.js",
+    "description": null
+  },
+  {
+    "slug": "dbt",
+    "name": "dbt",
+    "description": null
+  },
+  {
+    "slug": "helicone",
+    "name": "Helicone",
+    "description": "Open source observability layer for LLM requests, costs, and performance"
+  },
+  {
+    "slug": "react-native",
+    "name": "React Native",
+    "description": null
+  },
+  {
+    "slug": "convertkit",
+    "name": "ConvertKit",
+    "description": null
+  },
+  {
+    "slug": "databricks",
+    "name": "Databricks",
+    "description": null
+  },
+  {
+    "slug": "vercel-ai-sdk",
+    "name": "AI SDK",
+    "description": "Unified toolkit for text, structured output, and tool calling with LLMs"
+  },
+  {
+    "slug": "cassandra",
+    "name": "Cassandra",
+    "description": null
+  },
+  {
+    "slug": "unified-to",
+    "name": "Unified.to",
+    "description": null
+  },
+  {
+    "slug": "nextra",
+    "name": "Nextra",
+    "description": null
+  },
+  {
+    "slug": "zendesk",
+    "name": "Zendesk",
+    "description": null
+  },
+  {
+    "slug": "amazon-eks",
+    "name": "Amazon EKS",
+    "description": null
+  },
+  {
+    "slug": "bullmq",
+    "name": "BullMQ",
+    "description": "Node.js message queue based on Redis"
+  },
+  {
+    "slug": "wp-engine",
+    "name": "WP Engine",
+    "description": null
+  },
+  {
+    "slug": "snowplow",
+    "name": "Snowplow",
+    "description": null
+  },
+  {
+    "slug": "weaviate",
+    "name": "Weaviate",
+    "description": null
+  },
+  {
+    "slug": "mulesoft",
+    "name": "MuleSoft",
+    "description": null
+  },
+  {
+    "slug": "zapier",
+    "name": "Zapier",
+    "description": null
+  },
+  {
+    "slug": "memberstack",
+    "name": "Memberstack",
+    "description": null
+  },
+  {
+    "slug": "promptlayer",
+    "name": "PromptLayer",
+    "description": null
+  },
+  {
+    "slug": "modal",
+    "name": "Modal",
+    "description": null
+  },
+  {
+    "slug": "fireflies-ai",
+    "name": "Fireflies.ai",
+    "description": null
+  },
+  {
+    "slug": "confluence",
+    "name": "Confluence",
+    "description": null
+  },
+  {
+    "slug": "promptfoo",
+    "name": "Promptfoo",
+    "description": "LLM evals and red-team framework for prompt, model, and system testing"
+  },
+  {
+    "slug": "pipedream",
+    "name": "Pipedream",
+    "description": null
+  },
+  {
+    "slug": "infima",
+    "name": "Infima",
+    "description": null
+  },
+  {
+    "slug": "keycloak",
+    "name": "Keycloak",
+    "description": null
+  },
+  {
+    "slug": "mongoose",
+    "name": "Mongoose",
+    "description": null
+  },
+  {
+    "slug": "read-the-docs",
+    "name": "Read the Docs",
+    "description": null
+  },
+  {
+    "slug": "aws-sagemaker",
+    "name": "AWS SageMaker",
+    "description": null
+  },
+  {
+    "slug": "ant-design",
+    "name": "Ant Design",
+    "description": "Enterprise-class UI design language"
+  },
+  {
+    "slug": "expo",
+    "name": "Expo",
+    "description": null
+  },
+  {
+    "slug": "wagtail",
+    "name": "Wagtail",
+    "description": null
+  },
+  {
+    "slug": "storybook",
+    "name": "Storybook",
+    "description": null
+  },
+  {
+    "slug": "expo-application-services",
+    "name": "Expo Application Services",
+    "description": null
+  },
+  {
+    "slug": "aws-cognito",
+    "name": "AWS Cognito",
+    "description": null
+  },
+  {
+    "slug": "nativebase",
+    "name": "NativeBase",
+    "description": null
+  },
+  {
+    "slug": "amazon-sqs",
+    "name": "Amazon SQS",
+    "description": null
+  },
+  {
+    "slug": "github-copilot-workspace",
+    "name": "GitHub Copilot Workspace",
+    "description": null
+  },
+  {
+    "slug": "hono",
+    "name": "Hono",
+    "description": "Small, fast web framework for the edge"
+  },
+  {
+    "slug": "sendbird",
+    "name": "Sendbird",
+    "description": null
+  },
+  {
+    "slug": "contentlayer",
+    "name": "Contentlayer",
+    "description": null
+  },
+  {
+    "slug": "amazon-kinesis",
+    "name": "Amazon Kinesis",
+    "description": null
+  },
+  {
+    "slug": "postgrest",
+    "name": "PostgREST",
+    "description": null
+  },
+  {
+    "slug": "sequelize",
+    "name": "Sequelize",
+    "description": null
+  },
+  {
+    "slug": "mlflow",
+    "name": "MLflow",
+    "description": null
+  },
+  {
+    "slug": "autonomiq",
+    "name": "Autonomiq",
+    "description": null
+  },
+  {
+    "slug": "fastify",
+    "name": "Fastify",
+    "description": "Fast and low-overhead web framework for Node.js"
+  },
+  {
+    "slug": "apify",
+    "name": "Apify",
+    "description": null
+  },
+  {
+    "slug": "airtable",
+    "name": "Airtable",
+    "description": null
+  },
+  {
+    "slug": "mongodb-atlas",
+    "name": "MongoDB Atlas",
+    "description": "Cloud-hosted MongoDB service"
+  },
+  {
+    "slug": "faunadb",
+    "name": "FaunaDB",
+    "description": null
+  },
+  {
+    "slug": "readme",
+    "name": "ReadMe",
+    "description": null
+  },
+  {
+    "slug": "openapi",
+    "name": "OpenAPI",
+    "description": null
+  },
+  {
+    "slug": "workato",
+    "name": "Workato",
+    "description": null
+  },
+  {
+    "slug": "zuplo",
+    "name": "Zuplo",
+    "description": null
+  },
+  {
+    "slug": "searchanise",
+    "name": "Searchanise",
+    "description": null
+  },
+  {
+    "slug": "amazon-redshift",
+    "name": "Amazon Redshift",
+    "description": null
+  },
+  {
+    "slug": "decap-cms",
+    "name": "Decap CMS",
+    "description": null
+  },
+  {
+    "slug": "mintlify",
+    "name": "Mintlify",
+    "description": null
+  },
+  {
+    "slug": "uptrain",
+    "name": "UpTrain",
+    "description": null
+  },
+  {
+    "slug": "einstein-ai",
+    "name": "Einstein AI",
+    "description": null
+  },
+  {
+    "slug": "backblaze",
+    "name": "Backblaze",
+    "description": null
+  },
+  {
+    "slug": "new-relic",
+    "name": "New Relic",
+    "description": null
+  },
+  {
+    "slug": "customer-io",
+    "name": "Customer.io",
+    "description": null
+  },
+  {
+    "slug": "nats",
+    "name": "NATS",
+    "description": null
+  },
+  {
+    "slug": "sendinblue",
+    "name": "Sendinblue",
+    "description": null
+  },
+  {
+    "slug": "opentelemetry",
+    "name": "OpenTelemetry",
+    "description": null
+  },
+  {
+    "slug": "patronus-ai",
+    "name": "Patronus AI",
+    "description": "AI evaluation and reliability platform for detecting LLM failures in production"
+  },
+  {
+    "slug": "mapbox",
+    "name": "Mapbox",
+    "description": null
+  },
+  {
+    "slug": "sqlite",
+    "name": "SQLite",
+    "description": null
+  },
+  {
+    "slug": "apidog",
+    "name": "Apidog",
+    "description": null
+  },
+  {
+    "slug": "llama",
+    "name": "Llama",
+    "description": null
+  },
+  {
+    "slug": "pgvector",
+    "name": "pgvector",
+    "description": null
+  },
+  {
+    "slug": "notion",
+    "name": "Notion",
+    "description": null
+  },
+  {
+    "slug": "e2b",
+    "name": "e2b",
+    "description": null
+  },
+  {
+    "slug": "gong",
+    "name": "Gong",
+    "description": null
+  },
+  {
+    "slug": "replicache",
+    "name": "Replicache",
+    "description": null
+  },
+  {
+    "slug": "uploadthing",
+    "name": "UploadThing",
+    "description": "File uploads for full-stack TypeScript apps"
+  },
+  {
+    "slug": "clicky",
+    "name": "Clicky",
+    "description": null
+  },
+  {
+    "slug": "upstash",
+    "name": "Upstash",
+    "description": null
+  },
+  {
+    "slug": "firebolt",
+    "name": "Firebolt",
+    "description": null
+  },
+  {
+    "slug": "tinacms",
+    "name": "TinaCMS",
+    "description": null
+  },
+  {
+    "slug": "amazon-ecs",
+    "name": "Amazon ECS",
+    "description": null
+  },
+  {
+    "slug": "lmsys-chatbot-arena",
+    "name": "LMSYS Chatbot Arena",
+    "description": null
+  },
+  {
+    "slug": "trulens",
+    "name": "TruLens",
+    "description": null
+  },
+  {
+    "slug": "aider",
+    "name": "Aider",
+    "description": "Terminal pair programming tool that edits local repositories with LLMs"
+  },
+  {
+    "slug": "react-spectrum",
+    "name": "React Spectrum",
+    "description": null
+  },
+  {
+    "slug": "aws-appsync",
+    "name": "AWS AppSync",
+    "description": null
+  },
+  {
+    "slug": "workable",
+    "name": "Workable",
+    "description": null
+  },
+  {
+    "slug": "hibernate",
+    "name": "Hibernate",
+    "description": null
+  },
+  {
+    "slug": "uploadcare",
+    "name": "Uploadcare",
+    "description": null
+  },
+  {
+    "slug": "sphinx",
+    "name": "Sphinx",
+    "description": null
+  },
+  {
+    "slug": "starlight",
+    "name": "Starlight",
+    "description": null
+  },
+  {
+    "slug": "autogen",
+    "name": "AutoGen",
+    "description": null
+  },
+  {
+    "slug": "azure-openai-service",
+    "name": "Azure OpenAI Service",
+    "description": null
+  },
+  {
+    "slug": "bubble",
+    "name": "Bubble",
+    "description": null
+  },
+  {
+    "slug": "trigger-dev",
+    "name": "Trigger.dev",
+    "description": "Background jobs for TypeScript"
+  },
+  {
+    "slug": "slack",
+    "name": "Slack",
+    "description": null
+  },
+  {
+    "slug": "convex",
+    "name": "Convex",
+    "description": "Reactive backend platform with sync and database primitives"
+  },
+  {
+    "slug": "squarespace",
+    "name": "Squarespace",
+    "description": null
+  },
+  {
+    "slug": "apache-superset",
+    "name": "Apache Superset",
+    "description": null
+  },
+  {
+    "slug": "hightouch",
+    "name": "Hightouch",
+    "description": null
+  },
+  {
+    "slug": "directus",
+    "name": "Directus",
+    "description": "Headless data platform and CMS for custom applications"
+  },
+  {
+    "slug": "react-grid-layout",
+    "name": "React Grid Layout",
+    "description": null
+  },
+  {
+    "slug": "rasa",
+    "name": "Rasa",
+    "description": null
+  },
+  {
+    "slug": "vectara",
+    "name": "Vectara",
+    "description": null
+  },
+  {
+    "slug": "braze",
+    "name": "Braze",
+    "description": null
+  },
+  {
+    "slug": "riverpod",
+    "name": "Riverpod",
+    "description": null
+  },
+  {
+    "slug": "jotai",
+    "name": "Jotai",
+    "description": "Primitive and atomic state management for React"
+  },
+  {
+    "slug": "apache-druid",
+    "name": "Apache Druid",
+    "description": null
+  },
+  {
+    "slug": "apache-airflow",
+    "name": "Apache Airflow",
+    "description": null
+  },
+  {
+    "slug": "honeycomb",
+    "name": "Honeycomb",
+    "description": null
+  },
+  {
+    "slug": "aws-bedrock",
+    "name": "AWS Bedrock",
+    "description": null
+  },
+  {
+    "slug": "azure-app-service",
+    "name": "Azure App Service",
+    "description": null
+  },
+  {
+    "slug": "truera",
+    "name": "TruEra",
+    "description": null
+  },
+  {
+    "slug": "langcheck",
+    "name": "LangCheck",
+    "description": null
+  },
+  {
+    "slug": "codex-cli",
+    "name": "Codex CLI",
+    "description": "OpenAI coding agent and CLI for software engineering workflows"
+  },
+  {
+    "slug": "react-aria",
+    "name": "React Aria",
+    "description": null
+  },
+  {
+    "slug": "visual-crossing-weather",
+    "name": "Visual Crossing Weather",
+    "description": null
+  },
+  {
+    "slug": "openrouter",
+    "name": "OpenRouter",
+    "description": "Unified API for accessing and routing across LLM providers"
+  },
+  {
+    "slug": "vapi",
+    "name": "Vapi",
+    "description": null
+  },
+  {
+    "slug": "pagefind",
+    "name": "Pagefind",
+    "description": null
+  },
+  {
+    "slug": "n8n",
+    "name": "n8n",
+    "description": null
+  },
+  {
+    "slug": "remix",
+    "name": "Remix",
+    "description": null
+  },
+  {
+    "slug": "xstate",
+    "name": "XState",
+    "description": "State machines and actor-based orchestration for applications"
+  },
+  {
+    "slug": "apache-pinot",
+    "name": "Apache Pinot",
+    "description": null
+  },
+  {
+    "slug": "google-data-studio",
+    "name": "Google Data Studio",
+    "description": null
+  },
+  {
+    "slug": "docfx",
+    "name": "DocFX",
+    "description": null
+  },
+  {
+    "slug": "cloudflare-pages",
+    "name": "Cloudflare Pages",
+    "description": "JAMstack platform by Cloudflare"
+  },
+  {
+    "slug": "openhands",
+    "name": "OpenHands",
+    "description": "Open source software engineering agent for codebase tasks and issue resolution"
+  },
+  {
+    "slug": "flutter",
+    "name": "Flutter",
+    "description": null
+  },
+  {
+    "slug": "tamagui",
+    "name": "Tamagui",
+    "description": null
+  },
+  {
+    "slug": "primereact",
+    "name": "PrimeReact",
+    "description": null
+  },
+  {
+    "slug": "apache-echarts",
+    "name": "Apache ECharts",
+    "description": null
+  },
+  {
+    "slug": "react-bootstrap",
+    "name": "React Bootstrap",
+    "description": null
+  },
+  {
+    "slug": "graphql-yoga",
+    "name": "GraphQL Yoga",
+    "description": null
+  },
+  {
+    "slug": "nginx",
+    "name": "NGINX",
+    "description": null
+  },
+  {
+    "slug": "nhost",
+    "name": "Nhost",
+    "description": null
+  },
+  {
+    "slug": "nango",
+    "name": "Nango",
+    "description": null
+  },
+  {
+    "slug": "beehiiv",
+    "name": "Beehiiv",
+    "description": null
+  },
+  {
+    "slug": "bootstrap",
+    "name": "Bootstrap",
+    "description": "Popular CSS framework"
+  },
+  {
+    "slug": "docsearch",
+    "name": "DocSearch",
+    "description": null
+  },
+  {
+    "slug": "knex-js",
+    "name": "Knex.js",
+    "description": null
+  },
+  {
+    "slug": "minio",
+    "name": "MinIO",
+    "description": null
+  },
+  {
+    "slug": "grafana",
+    "name": "Grafana",
+    "description": null
+  },
+  {
+    "slug": "sentry",
+    "name": "Sentry",
+    "description": "Application monitoring and error tracking"
+  },
+  {
+    "slug": "materialize",
+    "name": "Materialize",
+    "description": null
+  },
+  {
+    "slug": "keystonejs",
+    "name": "KeystoneJS",
+    "description": null
+  },
+  {
+    "slug": "azure-static-web-apps",
+    "name": "Azure Static Web Apps",
+    "description": null
+  },
+  {
+    "slug": "hugging-face",
+    "name": "Hugging Face",
+    "description": "Open source AI model hub"
+  },
+  {
+    "slug": "cline",
+    "name": "Cline",
+    "description": "Open source coding agent for editor-based autonomous development tasks"
+  },
+  {
+    "slug": "flowbite",
+    "name": "Flowbite",
+    "description": null
+  },
+  {
+    "slug": "redoc",
+    "name": "Redoc",
+    "description": null
+  },
+  {
+    "slug": "shiki",
+    "name": "Shiki",
+    "description": null
+  },
+  {
+    "slug": "azure-cosmos-db",
+    "name": "Azure Cosmos DB",
+    "description": null
+  },
+  {
+    "slug": "axios",
+    "name": "Axios",
+    "description": null
+  },
+  {
+    "slug": "swagger-openapi",
+    "name": "Swagger/OpenAPI",
+    "description": null
+  },
+  {
+    "slug": "paddle",
+    "name": "Paddle",
+    "description": "Payment platform for SaaS"
+  },
+  {
+    "slug": "mailpoet",
+    "name": "MailPoet",
+    "description": null
+  },
+  {
+    "slug": "cohere",
+    "name": "Cohere",
+    "description": null
+  },
+  {
+    "slug": "elasticpress",
+    "name": "ElasticPress",
+    "description": null
+  }
+]

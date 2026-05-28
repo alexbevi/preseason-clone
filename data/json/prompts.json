@@ -1,0 +1,866 @@
+[
+  {
+    "id": "aba43379-0eee-4a78-9afb-9e5ef78acde8",
+    "title": "AI Revenue Ops Copilot",
+    "slug": "ai-revenue-ops-copilot",
+    "level": "intermediate",
+    "description": "Ops copilot with workflow APIs, data sync, trace monitoring, and prompt evaluation",
+    "expectedCategories": [
+      "ai",
+      "llm-coding-agents",
+      "llm-observability",
+      "llm-evals",
+      "api",
+      "database",
+      "hosting",
+      "analytics"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "c3d6172d-ccb4-4a80-9b70-0c2d69c690a2",
+    "title": "AI Revenue Ops Copilot",
+    "slug": "ai-revenue-ops-copilot",
+    "level": "advanced",
+    "description": "Production revenue copilot with API orchestration, eval gates, and operational observability",
+    "expectedCategories": [
+      "ai",
+      "llm-coding-agents",
+      "llm-observability",
+      "llm-evals",
+      "api",
+      "database",
+      "hosting",
+      "analytics"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "d326f64e-1a66-4fb1-b7f4-31ec1f94d104",
+    "title": "AI Revenue Ops Copilot",
+    "slug": "ai-revenue-ops-copilot",
+    "level": "beginner",
+    "description": "Revenue operations copilot that summarizes pipeline data and suggests follow-up actions",
+    "expectedCategories": [
+      "ai",
+      "llm-coding-agents",
+      "llm-observability",
+      "llm-evals",
+      "api",
+      "database",
+      "hosting",
+      "analytics"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "0814e7b5-d34f-4892-8536-5659eac6d36f",
+    "title": "AI Support Agent Platform",
+    "slug": "ai-support-agent-platform",
+    "level": "beginner",
+    "description": "Customer support platform with a branded AI agent, internal knowledge search, and review tooling",
+    "expectedCategories": [
+      "ai",
+      "llm-coding-agents",
+      "llm-observability",
+      "llm-evals",
+      "auth",
+      "database",
+      "hosting",
+      "search"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "439c4b99-bd01-4cc7-94f4-c804a2a15a12",
+    "title": "AI Support Agent Platform",
+    "slug": "ai-support-agent-platform",
+    "level": "advanced",
+    "description": "Production support agent system with reliability controls, observability, and continuous evals",
+    "expectedCategories": [
+      "ai",
+      "llm-coding-agents",
+      "llm-observability",
+      "llm-evals",
+      "auth",
+      "database",
+      "hosting",
+      "search"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "b2bba8e6-a220-4ff9-a34e-bfa7975293c6",
+    "title": "AI Support Agent Platform",
+    "slug": "ai-support-agent-platform",
+    "level": "intermediate",
+    "description": "Support automation product with retrieval, agent workflows, traces, and evaluation loops",
+    "expectedCategories": [
+      "ai",
+      "llm-coding-agents",
+      "llm-observability",
+      "llm-evals",
+      "auth",
+      "database",
+      "hosting",
+      "search"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "9f18c903-517c-4e6c-a41d-e9bbc74076b0",
+    "title": "Blog Platform with CMS",
+    "slug": "blog-platform-cms",
+    "level": "beginner",
+    "description": "Publishing platform with blog posts, categories, comments, and a newsletter",
+    "expectedCategories": [
+      "cms",
+      "database",
+      "orm",
+      "email",
+      "hosting",
+      "search",
+      "styling"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "bddba4ca-c31d-44fb-9bad-e7b9a5a3dc31",
+    "title": "Blog Platform with CMS",
+    "slug": "blog-platform-cms",
+    "level": "intermediate",
+    "description": "Editorial publishing system with drafts, scheduled posts, and subscriber management",
+    "expectedCategories": [
+      "cms",
+      "database",
+      "orm",
+      "email",
+      "hosting",
+      "search",
+      "styling"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "936db662-1385-425a-a5b7-5a4155ca6a32",
+    "title": "Blog Platform with CMS",
+    "slug": "blog-platform-cms",
+    "level": "advanced",
+    "description": "Editorial CMS with review workflows, content governance, and search reliability",
+    "expectedCategories": [
+      "cms",
+      "database",
+      "orm",
+      "email",
+      "hosting",
+      "search",
+      "styling"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "534f1463-f3c7-4292-a869-8ee8cdd6a358",
+    "title": "Chat Application",
+    "slug": "chat-application",
+    "level": "beginner",
+    "description": "Messaging app with direct chats, group rooms, file sharing, and notifications",
+    "expectedCategories": [
+      "realtime",
+      "auth",
+      "database",
+      "orm",
+      "storage",
+      "hosting",
+      "notifications"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "321bfba3-3288-455e-8b88-7f716faf839b",
+    "title": "Chat Application",
+    "slug": "chat-application",
+    "level": "intermediate",
+    "description": "Realtime messaging product with room management, search, and attachment workflows",
+    "expectedCategories": [
+      "realtime",
+      "auth",
+      "database",
+      "orm",
+      "storage",
+      "hosting",
+      "notifications"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "2154f2e0-ae22-4f4c-a85c-1df7fe4d5eb7",
+    "title": "Chat Application",
+    "slug": "chat-application",
+    "level": "advanced",
+    "description": "Realtime communication system with delivery guarantees, permissions, and operational visibility",
+    "expectedCategories": [
+      "realtime",
+      "auth",
+      "database",
+      "orm",
+      "storage",
+      "hosting",
+      "notifications"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "b0bd64c1-d94d-4a0d-846c-1aafa26996d3",
+    "title": "Documentation Site",
+    "slug": "documentation-site",
+    "level": "advanced",
+    "description": "Documentation platform with content governance, search quality, and safe version rollouts",
+    "expectedCategories": [
+      "cms",
+      "search",
+      "hosting",
+      "styling",
+      "ui-components"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "bf665843-3539-484a-aa60-6e8288c0b9fc",
+    "title": "Documentation Site",
+    "slug": "documentation-site",
+    "level": "intermediate",
+    "description": "Docs platform with structured content, search indexing, and version publishing workflows",
+    "expectedCategories": [
+      "cms",
+      "search",
+      "hosting",
+      "styling",
+      "ui-components"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "acf4a8b9-b08a-4dc4-880c-c52fb7267f93",
+    "title": "Documentation Site",
+    "slug": "documentation-site",
+    "level": "beginner",
+    "description": "Developer docs site with navigation, search, versioning, and readable content",
+    "expectedCategories": [
+      "cms",
+      "search",
+      "hosting",
+      "styling",
+      "ui-components"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "14ba9dc3-54f7-47fd-88b6-152c08299922",
+    "title": "E-commerce Store",
+    "slug": "ecommerce-store",
+    "level": "beginner",
+    "description": "Online store with products, cart, checkout, and order confirmations",
+    "expectedCategories": [
+      "payments",
+      "database",
+      "orm",
+      "auth",
+      "email",
+      "storage",
+      "hosting",
+      "search"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "2d6dc22e-8648-4787-b63e-ca86ece0ad5c",
+    "title": "E-commerce Store",
+    "slug": "ecommerce-store",
+    "level": "advanced",
+    "description": "Production commerce system with inventory integrity, fulfillment workflows, and failure handling",
+    "expectedCategories": [
+      "payments",
+      "database",
+      "orm",
+      "auth",
+      "email",
+      "storage",
+      "hosting",
+      "search"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "e3194791-4d67-4751-8c03-5d8258dafbf0",
+    "title": "E-commerce Store",
+    "slug": "ecommerce-store",
+    "level": "intermediate",
+    "description": "Commerce storefront with inventory, customer accounts, and order operations",
+    "expectedCategories": [
+      "payments",
+      "database",
+      "orm",
+      "auth",
+      "email",
+      "storage",
+      "hosting",
+      "search"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "b8c9f55b-a046-4a19-9a7d-d6b6b21b034d",
+    "title": "Fitness Tracking App",
+    "slug": "fitness-tracking-app",
+    "level": "beginner",
+    "description": "Workout tracker with goals, progress charts, and social fitness challenges",
+    "expectedCategories": [
+      "auth",
+      "database",
+      "orm",
+      "hosting",
+      "analytics",
+      "ui-components",
+      "state"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "aeffdcc2-8a28-49f2-836c-e43b5748c37d",
+    "title": "Fitness Tracking App",
+    "slug": "fitness-tracking-app",
+    "level": "advanced",
+    "description": "Fitness platform with sensitive-user data handling, analytics correctness, and event durability",
+    "expectedCategories": [
+      "auth",
+      "database",
+      "orm",
+      "hosting",
+      "analytics",
+      "ui-components",
+      "state"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "726106b0-5855-4eef-b60e-ee0883e5f1d7",
+    "title": "Fitness Tracking App",
+    "slug": "fitness-tracking-app",
+    "level": "intermediate",
+    "description": "Health and workout product with plans, measurements, and progress analytics",
+    "expectedCategories": [
+      "auth",
+      "database",
+      "orm",
+      "hosting",
+      "analytics",
+      "ui-components",
+      "state"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "7a7e67a8-05a9-4de6-9b00-59790df55d6d",
+    "title": "Job Board",
+    "slug": "job-board",
+    "level": "beginner",
+    "description": "Hiring marketplace with job listings, company pages, and candidate applications",
+    "expectedCategories": [
+      "auth",
+      "database",
+      "orm",
+      "email",
+      "storage",
+      "hosting",
+      "search"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "c1ed4fe3-fb81-4d67-b83b-72ffbd1d91a9",
+    "title": "Job Board",
+    "slug": "job-board",
+    "level": "intermediate",
+    "description": "Recruiting platform with employer workflows, applicant tracking, and search filters",
+    "expectedCategories": [
+      "auth",
+      "database",
+      "orm",
+      "email",
+      "storage",
+      "hosting",
+      "search"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "ada60318-06f7-4e0b-b407-60f0f1ed48bc",
+    "title": "Job Board",
+    "slug": "job-board",
+    "level": "advanced",
+    "description": "Recruiting marketplace with role boundaries, application auditability, and data protection",
+    "expectedCategories": [
+      "auth",
+      "database",
+      "orm",
+      "email",
+      "storage",
+      "hosting",
+      "search"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "c1f0ce37-1073-4431-9105-a153f4018c0f",
+    "title": "Multi-tenant CRM",
+    "slug": "multi-tenant-crm",
+    "level": "advanced",
+    "description": "Production CRM with tenant isolation, audit trails, and integration reliability",
+    "expectedCategories": [
+      "auth",
+      "database",
+      "orm",
+      "email",
+      "hosting",
+      "analytics",
+      "api"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "cc396ba8-4982-45f8-b3eb-ac68144718ed",
+    "title": "Multi-tenant CRM",
+    "slug": "multi-tenant-crm",
+    "level": "beginner",
+    "description": "Customer relationship app with contacts, deals, tasks, and team dashboards",
+    "expectedCategories": [
+      "auth",
+      "database",
+      "orm",
+      "email",
+      "hosting",
+      "analytics",
+      "api"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "cc9c4f6d-76dc-4aa0-93ec-f790b4be4c4b",
+    "title": "Multi-tenant CRM",
+    "slug": "multi-tenant-crm",
+    "level": "intermediate",
+    "description": "Tenant-aware CRM with shared pipelines, reporting, and outbound communication workflows",
+    "expectedCategories": [
+      "auth",
+      "database",
+      "orm",
+      "email",
+      "hosting",
+      "analytics",
+      "api"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "54fd8627-1aca-42e1-8460-a384c5dfc4ff",
+    "title": "Online Learning Platform",
+    "slug": "online-learning-platform",
+    "level": "intermediate",
+    "description": "Education platform with course delivery, progress tracking, and instructor workflows",
+    "expectedCategories": [
+      "auth",
+      "database",
+      "orm",
+      "payments",
+      "storage",
+      "hosting",
+      "email"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "e14d3a2f-980c-45d4-b8ec-55a89bff8280",
+    "title": "Online Learning Platform",
+    "slug": "online-learning-platform",
+    "level": "beginner",
+    "description": "Course platform with video lessons, quizzes, certificates, and paid access",
+    "expectedCategories": [
+      "auth",
+      "database",
+      "orm",
+      "payments",
+      "storage",
+      "hosting",
+      "email"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "bc69393f-79ec-4872-911b-0fcebac2a361",
+    "title": "Online Learning Platform",
+    "slug": "online-learning-platform",
+    "level": "advanced",
+    "description": "Learning platform with entitlements, completion correctness, and media delivery safeguards",
+    "expectedCategories": [
+      "auth",
+      "database",
+      "orm",
+      "payments",
+      "storage",
+      "hosting",
+      "email"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "6b7ffb88-07d9-4d27-afea-7da13c1f5132",
+    "title": "Project Management Tool",
+    "slug": "project-management-tool",
+    "level": "beginner",
+    "description": "Kanban-style planning app with boards, cards, due dates, and team activity",
+    "expectedCategories": [
+      "realtime",
+      "database",
+      "orm",
+      "auth",
+      "storage",
+      "hosting",
+      "notifications",
+      "state"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "4a74b7fe-a203-462f-96a7-732f6928bbba",
+    "title": "Project Management Tool",
+    "slug": "project-management-tool",
+    "level": "advanced",
+    "description": "Collaborative planning platform with concurrency, permissions, and event durability",
+    "expectedCategories": [
+      "realtime",
+      "database",
+      "orm",
+      "auth",
+      "storage",
+      "hosting",
+      "notifications",
+      "state"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "8a411ffa-9552-4eb8-8654-e152352dbee4",
+    "title": "Project Management Tool",
+    "slug": "project-management-tool",
+    "level": "intermediate",
+    "description": "Team workflow app with shared boards, card activity, and collaborative updates",
+    "expectedCategories": [
+      "realtime",
+      "database",
+      "orm",
+      "auth",
+      "storage",
+      "hosting",
+      "notifications",
+      "state"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "2aeb7df0-e9df-4306-a323-048ca3f6a1ed",
+    "title": "Real Estate Website",
+    "slug": "real-estate-website",
+    "level": "beginner",
+    "description": "Real estate listing site with search, agent profiles, and saved homes",
+    "expectedCategories": [
+      "auth",
+      "database",
+      "orm",
+      "hosting",
+      "storage",
+      "styling",
+      "ui-components"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "a4207339-ff64-4da2-989e-1c2652bcb54b",
+    "title": "Real Estate Website",
+    "slug": "real-estate-website",
+    "level": "intermediate",
+    "description": "Property marketplace with agent and buyer accounts, listing management, and lead workflows",
+    "expectedCategories": [
+      "auth",
+      "database",
+      "orm",
+      "hosting",
+      "storage",
+      "styling",
+      "ui-components"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "9f73dd7a-c012-4145-a71f-9852fda7913b",
+    "title": "Real Estate Website",
+    "slug": "real-estate-website",
+    "level": "advanced",
+    "description": "Production-ready property platform with role separation, moderation, and operational safeguards",
+    "expectedCategories": [
+      "auth",
+      "database",
+      "orm",
+      "hosting",
+      "storage",
+      "styling",
+      "ui-components"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "d8be77f9-55dc-4ab5-ab3d-2047e5ddd081",
+    "title": "Restaurant Reservation System",
+    "slug": "restaurant-reservation-system",
+    "level": "beginner",
+    "description": "Reservation booking app with table availability, reminders, and guest profiles",
+    "expectedCategories": [
+      "auth",
+      "database",
+      "orm",
+      "email",
+      "hosting",
+      "notifications"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "cc620965-fc93-40ad-9488-08dc21d61e96",
+    "title": "Restaurant Reservation System",
+    "slug": "restaurant-reservation-system",
+    "level": "advanced",
+    "description": "Reservation platform with booking integrity, staff controls, and operational resilience",
+    "expectedCategories": [
+      "auth",
+      "database",
+      "orm",
+      "email",
+      "hosting",
+      "notifications"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "91334ee5-b425-4e1b-89f6-26c48862108d",
+    "title": "Restaurant Reservation System",
+    "slug": "restaurant-reservation-system",
+    "level": "intermediate",
+    "description": "Hospitality booking system with staff scheduling, waitlists, and guest communication",
+    "expectedCategories": [
+      "auth",
+      "database",
+      "orm",
+      "email",
+      "hosting",
+      "notifications"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "08e04597-50f5-467f-b79b-0ea967e2ea21",
+    "title": "SaaS Application",
+    "slug": "saas-application",
+    "level": "advanced",
+    "description": "Production SaaS platform with tenancy boundaries, billing correctness, and operational visibility",
+    "expectedCategories": [
+      "auth",
+      "database",
+      "orm",
+      "payments",
+      "email",
+      "hosting",
+      "analytics",
+      "ui-components"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "f9643d4d-32ea-42e5-8109-bc70ae84deeb",
+    "title": "SaaS Application",
+    "slug": "saas-application",
+    "level": "beginner",
+    "description": "Subscription SaaS app with login, billing, and a customer dashboard",
+    "expectedCategories": [
+      "auth",
+      "database",
+      "orm",
+      "payments",
+      "email",
+      "hosting",
+      "analytics",
+      "ui-components"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "1cb5b8d6-b1aa-4f22-ab32-8bcbfeb97747",
+    "title": "SaaS Application",
+    "slug": "saas-application",
+    "level": "intermediate",
+    "description": "Multi-user SaaS starter with subscriptions, seat management, and usage reporting",
+    "expectedCategories": [
+      "auth",
+      "database",
+      "orm",
+      "payments",
+      "email",
+      "hosting",
+      "analytics",
+      "ui-components"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "9ecb8bc7-ddab-4971-a51f-4b42379733c6",
+    "title": "Social Media Platform",
+    "slug": "social-media-platform",
+    "level": "beginner",
+    "description": "Social app with profiles, posts, comments, likes, and direct messages",
+    "expectedCategories": [
+      "auth",
+      "database",
+      "orm",
+      "storage",
+      "realtime",
+      "hosting",
+      "notifications",
+      "search"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "f3414d5e-4d48-495c-bf01-c2417f457cf5",
+    "title": "Social Media Platform",
+    "slug": "social-media-platform",
+    "level": "advanced",
+    "description": "High-scale social network with moderation, feed integrity, and delivery observability",
+    "expectedCategories": [
+      "auth",
+      "database",
+      "orm",
+      "storage",
+      "realtime",
+      "hosting",
+      "notifications",
+      "search"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "17e29a2c-924d-4318-96d6-8feaa02a1780",
+    "title": "Social Media Platform",
+    "slug": "social-media-platform",
+    "level": "intermediate",
+    "description": "Community platform with feeds, messaging, moderation, and media sharing",
+    "expectedCategories": [
+      "auth",
+      "database",
+      "orm",
+      "storage",
+      "realtime",
+      "hosting",
+      "notifications",
+      "search"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "6afce8cd-e975-4cc4-9cd6-04ade4ad7481",
+    "title": "URL Shortener",
+    "slug": "url-shortener",
+    "level": "intermediate",
+    "description": "Link management service with analytics, expiration rules, and API access",
+    "expectedCategories": [
+      "database",
+      "orm",
+      "hosting",
+      "analytics",
+      "api"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "b29b76c9-11bb-4487-9ab1-2bc46327dc9a",
+    "title": "URL Shortener",
+    "slug": "url-shortener",
+    "level": "beginner",
+    "description": "Link shortener with custom aliases, click stats, and simple dashboards",
+    "expectedCategories": [
+      "database",
+      "orm",
+      "hosting",
+      "analytics",
+      "api"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "137d650e-e933-4ae8-ab56-b4a416d86ed4",
+    "title": "URL Shortener",
+    "slug": "url-shortener",
+    "level": "advanced",
+    "description": "Redirect platform with analytics pipelines, abuse controls, and high-availability routing",
+    "expectedCategories": [
+      "database",
+      "orm",
+      "hosting",
+      "analytics",
+      "api"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "418123a8-9f8e-415a-ad1f-c57445d59c04",
+    "title": "Weather Dashboard",
+    "slug": "weather-dashboard",
+    "level": "beginner",
+    "description": "Forecast dashboard with saved locations, alerts, and visual weather summaries",
+    "expectedCategories": [
+      "api",
+      "hosting",
+      "state",
+      "styling",
+      "ui-components"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "db07ed17-d4ea-4a8e-a8f0-ff62ce5c7590",
+    "title": "Weather Dashboard",
+    "slug": "weather-dashboard",
+    "level": "advanced",
+    "description": "Forecast platform with external API resilience, cache strategy, and alert delivery observability",
+    "expectedCategories": [
+      "api",
+      "hosting",
+      "state",
+      "styling",
+      "ui-components"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "69846039-4571-40fa-82f3-cc2690e9943a",
+    "title": "Weather Dashboard",
+    "slug": "weather-dashboard",
+    "level": "intermediate",
+    "description": "Data-driven forecast app with cached API data and personalized location views",
+    "expectedCategories": [
+      "api",
+      "hosting",
+      "state",
+      "styling",
+      "ui-components"
+    ],
+    "isActive": true
+  }
+]

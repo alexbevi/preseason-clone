@@ -1,0 +1,1940 @@
+[
+  {
+    "id": "27f08a9b-e6aa-4015-9d7d-7704031dc803",
+    "slug": "vercel",
+    "name": "Vercel",
+    "logoUrl": "/logos/vercel.png"
+  },
+  {
+    "id": "26ce9f0b-772a-4691-a7c2-b147f422510c",
+    "slug": "prisma",
+    "name": "Prisma",
+    "logoUrl": "/logos/prisma.png"
+  },
+  {
+    "id": "e84ccfa7-6459-4eab-8bcd-0c001d781481",
+    "slug": "postgresql",
+    "name": "PostgreSQL",
+    "logoUrl": "/logos/postgresql.png"
+  },
+  {
+    "id": "46ffddf1-f22b-432c-bba9-8219934d4c4d",
+    "slug": "supabase",
+    "name": "Supabase",
+    "logoUrl": "/logos/supabase.png"
+  },
+  {
+    "id": "541e4569-3f8f-41ff-9ba0-4c1dac0cb1ea",
+    "slug": "auth0",
+    "name": "Auth0",
+    "logoUrl": "/logos/auth0.png"
+  },
+  {
+    "id": "6636eb6c-024d-4bcb-9341-c2148ffe50cb",
+    "slug": "firebase",
+    "name": "Firebase",
+    "logoUrl": "/logos/firebase.png"
+  },
+  {
+    "id": "97e7e18b-bfb0-4722-9691-cd08ac759188",
+    "slug": "algolia",
+    "name": "Algolia",
+    "logoUrl": "/logos/algolia.png"
+  },
+  {
+    "id": "c704d699-db07-4d7e-8c84-2747173a0e0a",
+    "slug": "sendgrid",
+    "name": "SendGrid",
+    "logoUrl": "/logos/sendgrid.png"
+  },
+  {
+    "id": "40aba8e1-5502-4201-9d4d-6fb780dff9f2",
+    "slug": "aws-s3",
+    "name": "AWS S3",
+    "logoUrl": "/logos/aws-s3.png"
+  },
+  {
+    "id": "b1e4993f-4280-4979-829d-0f1370e9f409",
+    "slug": "aws",
+    "name": "AWS",
+    "logoUrl": "/logos/aws.png"
+  },
+  {
+    "id": "fbac44d7-8ab3-43e7-bce1-1bc8c2ddc78b",
+    "slug": "tailwind-css",
+    "name": "Tailwind CSS",
+    "logoUrl": "/logos/tailwind-css.png"
+  },
+  {
+    "id": "9cbe95d6-7441-4525-83b2-ddcda72b5869",
+    "slug": "stripe",
+    "name": "Stripe",
+    "logoUrl": "/logos/stripe.png"
+  },
+  {
+    "id": "56e5424e-db29-425b-9d1f-bc2ad57e444b",
+    "slug": "clerk",
+    "name": "Clerk",
+    "logoUrl": "/logos/clerk.png"
+  },
+  {
+    "id": "692c34d8-f299-4a43-b62d-c4272e559f1d",
+    "slug": "resend",
+    "name": "Resend",
+    "logoUrl": "/logos/resend.png"
+  },
+  {
+    "id": "8216ccdb-f8f0-437e-b6bf-431fd16de7c0",
+    "slug": "langsmith",
+    "name": "LangSmith",
+    "logoUrl": "/logos/langsmith.png"
+  },
+  {
+    "id": "bebe9181-ba15-4e72-b1cd-689af426aa98",
+    "slug": "posthog",
+    "name": "PostHog",
+    "logoUrl": "/logos/posthog.png"
+  },
+  {
+    "id": "057cc367-831f-45e8-836c-f36b02bf3414",
+    "slug": "shadcn-ui",
+    "name": "shadcn/ui",
+    "logoUrl": "/logos/shadcn-ui.png"
+  },
+  {
+    "id": "7bfeff4e-8202-4549-b306-fe35ae5f1286",
+    "slug": "elasticsearch",
+    "name": "Elasticsearch",
+    "logoUrl": "/logos/elasticsearch.png"
+  },
+  {
+    "id": "e0edca80-1060-4ff6-b35a-9b0f0ba80fe6",
+    "slug": "tanstack-query",
+    "name": "TanStack Query",
+    "logoUrl": "/logos/tanstack-query.png"
+  },
+  {
+    "id": "3f58c207-b8b1-4c1c-87f0-4416b91c07f6",
+    "slug": "mui",
+    "name": "MUI",
+    "logoUrl": "/logos/mui.png"
+  },
+  {
+    "id": "af13f5d4-f2f4-4147-a1d1-99880cc5746c",
+    "slug": "mixpanel",
+    "name": "Mixpanel",
+    "logoUrl": "/logos/mixpanel.png"
+  },
+  {
+    "id": "44afd7b6-40a3-43d7-af34-53b30002af56",
+    "slug": "typeorm",
+    "name": "TypeORM",
+    "logoUrl": "/logos/typeorm.png"
+  },
+  {
+    "id": "ba3c318f-e834-42d2-9398-b3bd2c0ab36f",
+    "slug": "twilio",
+    "name": "Twilio",
+    "logoUrl": "/logos/twilio.png"
+  },
+  {
+    "id": "a44f384d-a2f4-4bd7-b5b1-b691965627ad",
+    "slug": "langchain",
+    "name": "LangChain",
+    "logoUrl": null
+  },
+  {
+    "id": "0b47a4f4-347d-4f4d-8548-29f3489d020e",
+    "slug": "openai",
+    "name": "OpenAI",
+    "logoUrl": "/logos/openai.png"
+  },
+  {
+    "id": "467167eb-f529-4da6-8a1a-24b7388f5181",
+    "slug": "onesignal",
+    "name": "OneSignal",
+    "logoUrl": "/logos/onesignal.png"
+  },
+  {
+    "id": "d85a4ceb-f6bc-4a83-a1a4-6f95522ab238",
+    "slug": "cloudflare-r2",
+    "name": "Cloudflare R2",
+    "logoUrl": "/logos/cloudflare-r2.png"
+  },
+  {
+    "id": "899fb5e0-bbb8-4ce7-93d3-ebc354c7f7bb",
+    "slug": "neon",
+    "name": "Neon",
+    "logoUrl": "/logos/neon.png"
+  },
+  {
+    "id": "96185f11-f523-42cb-bf58-1cec863ea8ea",
+    "slug": "radix-ui",
+    "name": "Radix UI",
+    "logoUrl": "/logos/radix-ui.png"
+  },
+  {
+    "id": "a9f7c1d1-5a2b-41e7-8f35-7b36d0d66ab6",
+    "slug": "ably",
+    "name": "Ably",
+    "logoUrl": "/logos/ably.png"
+  },
+  {
+    "id": "08e93e79-ae8e-4aee-80a9-02a2b6733c68",
+    "slug": "cloudinary",
+    "name": "Cloudinary",
+    "logoUrl": "/logos/cloudinary.png"
+  },
+  {
+    "id": "c251c6ea-1137-4f82-a10a-7bb1adc0be72",
+    "slug": "zustand",
+    "name": "Zustand",
+    "logoUrl": "/logos/zustand.png"
+  },
+  {
+    "id": "cb670489-e845-4980-acdc-1185286af514",
+    "slug": "openweathermap",
+    "name": "OpenWeatherMap",
+    "logoUrl": "/logos/openweathermap.png"
+  },
+  {
+    "id": "8c219dc4-27a7-41f0-b3c4-ce658166c014",
+    "slug": "cursor",
+    "name": "Cursor",
+    "logoUrl": "/logos/cursor.png"
+  },
+  {
+    "id": "eab641f7-869d-42a3-b360-3317c8619449",
+    "slug": "braintrust",
+    "name": "Braintrust",
+    "logoUrl": "/logos/braintrust.png"
+  },
+  {
+    "id": "f3d9e377-5046-499d-a6b7-9a9b07aa2896",
+    "slug": "langfuse",
+    "name": "Langfuse",
+    "logoUrl": "/logos/langfuse.png"
+  },
+  {
+    "id": "a57b0a8a-8ee7-4a1d-b7e1-efd330a1ddf7",
+    "slug": "postmark",
+    "name": "Postmark",
+    "logoUrl": "/logos/postmark.png"
+  },
+  {
+    "id": "c16e5983-78c9-4b54-b2e3-a203e46bb734",
+    "slug": "pusher",
+    "name": "Pusher",
+    "logoUrl": "/logos/pusher.png"
+  },
+  {
+    "id": "b6973069-cbca-4f28-a1e0-639be4373448",
+    "slug": "pinecone",
+    "name": "Pinecone",
+    "logoUrl": null
+  },
+  {
+    "id": "ab678092-751b-426e-b23a-99ecac8994f9",
+    "slug": "firestore",
+    "name": "Firestore",
+    "logoUrl": "/logos/firestore.png"
+  },
+  {
+    "id": "a411cd76-04be-46b8-9e84-13f19e1e0183",
+    "slug": "shopify",
+    "name": "Shopify",
+    "logoUrl": "/logos/shopify.png"
+  },
+  {
+    "id": "a250a628-ada1-48c1-ab24-d98c766b3fce",
+    "slug": "ghost",
+    "name": "Ghost",
+    "logoUrl": "/logos/ghost.png"
+  },
+  {
+    "id": "ee19e6a0-5949-4af2-8891-d1f614f8996b",
+    "slug": "sanity",
+    "name": "Sanity",
+    "logoUrl": "/logos/sanity.png"
+  },
+  {
+    "id": "f5cca4ef-020f-4f64-a97f-9837010a807c",
+    "slug": "railway",
+    "name": "Railway",
+    "logoUrl": "/logos/railway.png"
+  },
+  {
+    "id": "05579290-e25c-4755-8dcc-392b57057097",
+    "slug": "metabase",
+    "name": "Metabase",
+    "logoUrl": "/logos/metabase.png"
+  },
+  {
+    "id": "899c2fcc-20fc-4da0-a8f6-10e5515d8c75",
+    "slug": "docusaurus",
+    "name": "Docusaurus",
+    "logoUrl": "/logos/docusaurus.png"
+  },
+  {
+    "id": "04c3434f-9bd1-4de6-a289-636640ebb74a",
+    "slug": "redux",
+    "name": "Redux",
+    "logoUrl": "/logos/redux.png"
+  },
+  {
+    "id": "2c0a17f3-8a1f-456a-ba9a-22a220446ac2",
+    "slug": "redux-toolkit",
+    "name": "Redux Toolkit",
+    "logoUrl": "/logos/redux-toolkit.png"
+  },
+  {
+    "id": "32fee3a8-524f-41af-bd41-938b74061957",
+    "slug": "fly-io",
+    "name": "Fly.io",
+    "logoUrl": "/logos/fly-io.png"
+  },
+  {
+    "id": "3c4f852b-d4ec-4e17-8dac-cc4add85f207",
+    "slug": "contentful",
+    "name": "Contentful",
+    "logoUrl": "/logos/contentful.png"
+  },
+  {
+    "id": "574264fb-f5a3-4360-972f-56c0f8e8f005",
+    "slug": "fastapi",
+    "name": "FastAPI",
+    "logoUrl": "/logos/fastapi.png"
+  },
+  {
+    "id": "e05274c6-d9ea-4e6a-bef7-8c5962855791",
+    "slug": "novu",
+    "name": "Novu",
+    "logoUrl": "/logos/novu.png"
+  },
+  {
+    "id": "94e75de0-7a9c-4e6f-97d8-27ddbdd72c85",
+    "slug": "render",
+    "name": "Render",
+    "logoUrl": "/logos/render.png"
+  },
+  {
+    "id": "0dfebded-5d70-4040-9a8c-37dc58c81b98",
+    "slug": "clickhouse",
+    "name": "ClickHouse",
+    "logoUrl": "/logos/clickhouse.png"
+  },
+  {
+    "id": "c7d077f5-3989-4fb7-a771-c0bb1fde1282",
+    "slug": "heroku",
+    "name": "Heroku",
+    "logoUrl": "/logos/heroku.png"
+  },
+  {
+    "id": "cc4e0723-b4f7-4d7a-b989-1c7cb63a6288",
+    "slug": "amazon-rds",
+    "name": "Amazon RDS",
+    "logoUrl": "/logos/amazon-rds.png"
+  },
+  {
+    "id": "11bd3651-aa47-4e30-a518-da75a01eb662",
+    "slug": "next-js",
+    "name": "Next.js",
+    "logoUrl": "/logos/next-js.png"
+  },
+  {
+    "id": "3b201191-5d61-47ab-810f-f47cfcc08b9e",
+    "slug": "react",
+    "name": "React",
+    "logoUrl": "/logos/react.png"
+  },
+  {
+    "id": "57db3643-8086-45d6-91f6-1cb741a58bac",
+    "slug": "recharts",
+    "name": "Recharts",
+    "logoUrl": "/logos/recharts.png"
+  },
+  {
+    "id": "cf64f8e6-3235-4bb0-b6df-95d99314d1ca",
+    "slug": "arize-ai",
+    "name": "Arize AI",
+    "logoUrl": null
+  },
+  {
+    "id": "f6a77496-66f8-4700-8968-c3d640418a0a",
+    "slug": "kong",
+    "name": "Kong",
+    "logoUrl": "/logos/kong.png"
+  },
+  {
+    "id": "7a356390-c5e6-4c86-b838-07037d615641",
+    "slug": "google-analytics",
+    "name": "Google Analytics",
+    "logoUrl": "/logos/google-analytics.png"
+  },
+  {
+    "id": "13d98d00-1183-4d60-931b-ab7d413a6aa8",
+    "slug": "snowflake",
+    "name": "Snowflake",
+    "logoUrl": null
+  },
+  {
+    "id": "c15f7437-989c-4012-9623-137d7a716c36",
+    "slug": "amazon-aurora-postgresql",
+    "name": "Amazon Aurora PostgreSQL",
+    "logoUrl": null
+  },
+  {
+    "id": "2352af07-18d4-4e0e-97ac-455e7a5fc082",
+    "slug": "strapi",
+    "name": "Strapi",
+    "logoUrl": "/logos/strapi.png"
+  },
+  {
+    "id": "5b21cdec-0369-455f-b245-8eedab461528",
+    "slug": "stream",
+    "name": "Stream",
+    "logoUrl": null
+  },
+  {
+    "id": "bf0f1ad0-48e2-4ae3-b947-96cf14825378",
+    "slug": "chakra-ui",
+    "name": "Chakra UI",
+    "logoUrl": "/logos/chakra-ui.png"
+  },
+  {
+    "id": "2bb9107f-4a54-4c9b-9253-83962f24220b",
+    "slug": "github-copilot",
+    "name": "GitHub Copilot",
+    "logoUrl": null
+  },
+  {
+    "id": "16dfda08-b6bd-4d3e-9238-6fa4d896ff27",
+    "slug": "langgraph",
+    "name": "LangGraph",
+    "logoUrl": null
+  },
+  {
+    "id": "c8f8f824-f104-4320-8f1b-68188510ba79",
+    "slug": "mailgun",
+    "name": "Mailgun",
+    "logoUrl": "/logos/mailgun.png"
+  },
+  {
+    "id": "edc9bfce-d294-40d0-b4ae-e496848facd5",
+    "slug": "trpc",
+    "name": "tRPC",
+    "logoUrl": "/logos/trpc.png"
+  },
+  {
+    "id": "9e43ea67-e92b-40e9-899b-ba2b6fae0ca8",
+    "slug": "datadog",
+    "name": "Datadog",
+    "logoUrl": "/logos/datadog.png"
+  },
+  {
+    "id": "c3710156-a9de-47d3-8f62-dde0426fc193",
+    "slug": "segment",
+    "name": "Segment",
+    "logoUrl": "/logos/segment.png"
+  },
+  {
+    "id": "c601621b-355e-450e-8fbe-b272482fbc5d",
+    "slug": "mailchimp",
+    "name": "Mailchimp",
+    "logoUrl": "/logos/mailchimp.png"
+  },
+  {
+    "id": "5dce235e-4554-4e7d-960c-fa0a4719bd77",
+    "slug": "knock",
+    "name": "Knock",
+    "logoUrl": null
+  },
+  {
+    "id": "09b29d1c-6e46-4906-b8ff-4d6067aa777c",
+    "slug": "merge",
+    "name": "Merge",
+    "logoUrl": null
+  },
+  {
+    "id": "7207ba4c-8a73-4531-b989-dcbc77afe936",
+    "slug": "socket-io",
+    "name": "Socket.io",
+    "logoUrl": "/logos/socket-io.png"
+  },
+  {
+    "id": "31002611-1568-41b3-8699-014a6155b265",
+    "slug": "mongodb",
+    "name": "MongoDB",
+    "logoUrl": null
+  },
+  {
+    "id": "21afc9ec-de49-463e-b07f-30474cdf2b06",
+    "slug": "mux",
+    "name": "Mux",
+    "logoUrl": "/logos/mux.png"
+  },
+  {
+    "id": "7f3d3f7c-3704-4848-93a3-c5a27ff55810",
+    "slug": "planetscale",
+    "name": "PlanetScale",
+    "logoUrl": "/logos/planetscale.png"
+  },
+  {
+    "id": "afee62b6-621c-42ce-a25f-bbbd08e99f4c",
+    "slug": "liveblocks",
+    "name": "Liveblocks",
+    "logoUrl": null
+  },
+  {
+    "id": "621c3a23-317e-4c4b-a871-8c67ef30b7f7",
+    "slug": "google-cloud-platform-gcp",
+    "name": "Google Cloud Platform (GCP)",
+    "logoUrl": null
+  },
+  {
+    "id": "23ff92ca-54f2-46d4-8c71-6aa0c56e6330",
+    "slug": "apollo-graphql",
+    "name": "Apollo GraphQL",
+    "logoUrl": "/logos/apollo-graphql.png"
+  },
+  {
+    "id": "a53fd27b-3e8a-4a0f-a80f-efe9fb9a797a",
+    "slug": "meilisearch",
+    "name": "Meilisearch",
+    "logoUrl": "/logos/meilisearch.png"
+  },
+  {
+    "id": "647c7141-d553-4a28-ad11-1812117fcd4d",
+    "slug": "amazon-sns",
+    "name": "Amazon SNS",
+    "logoUrl": "/logos/amazon-sns.png"
+  },
+  {
+    "id": "584e9d5a-a854-4e73-b4bb-cd9425e3deaa",
+    "slug": "sqlalchemy",
+    "name": "SQLAlchemy",
+    "logoUrl": "/logos/sqlalchemy.png"
+  },
+  {
+    "id": "8d4f333c-2533-48b0-aa25-abdc721a4142",
+    "slug": "okta",
+    "name": "Okta",
+    "logoUrl": "/logos/okta.png"
+  },
+  {
+    "id": "21b3f4ee-48ad-44bb-b3dd-c28ca8974666",
+    "slug": "anthropic",
+    "name": "Anthropic",
+    "logoUrl": "/logos/anthropic.png"
+  },
+  {
+    "id": "398162f1-7412-4677-acd2-c2fe5a3a7135",
+    "slug": "drizzle",
+    "name": "Drizzle",
+    "logoUrl": "/logos/drizzle.png"
+  },
+  {
+    "id": "f158fe34-0027-4f7d-83c3-4cc1b5a97bac",
+    "slug": "tinybird",
+    "name": "Tinybird",
+    "logoUrl": null
+  },
+  {
+    "id": "3bead978-1ead-4a92-9e59-4e7e44ab0efe",
+    "slug": "cloudflare-workers",
+    "name": "Cloudflare Workers",
+    "logoUrl": null
+  },
+  {
+    "id": "aa2c7335-5996-4fa3-986a-958dbd7940bc",
+    "slug": "salesforce-api",
+    "name": "Salesforce API",
+    "logoUrl": null
+  },
+  {
+    "id": "1d286b8b-c586-4b83-9502-c0bd73bc77b9",
+    "slug": "amplitude",
+    "name": "Amplitude",
+    "logoUrl": null
+  },
+  {
+    "id": "77e45092-1d97-487b-9720-de50e004a507",
+    "slug": "weights-biases",
+    "name": "Weights & Biases",
+    "logoUrl": null
+  },
+  {
+    "id": "4ae510ca-d8c0-4a1b-9037-3f8557a2219a",
+    "slug": "cockroachdb",
+    "name": "CockroachDB",
+    "logoUrl": null
+  },
+  {
+    "id": "a1d38f37-732c-4218-a3ad-7556081d6762",
+    "slug": "intercom",
+    "name": "Intercom",
+    "logoUrl": null
+  },
+  {
+    "id": "09d79b01-2651-4933-b7bf-3537e80e454c",
+    "slug": "redis",
+    "name": "Redis",
+    "logoUrl": "/logos/redis.png"
+  },
+  {
+    "id": "802efcca-8ac3-4bfa-bb21-664b5ff03687",
+    "slug": "netlify",
+    "name": "Netlify",
+    "logoUrl": "/logos/netlify.png"
+  },
+  {
+    "id": "30065762-024f-4ad4-916a-fc746b3d7f3f",
+    "slug": "plausible",
+    "name": "Plausible",
+    "logoUrl": "/logos/plausible.png"
+  },
+  {
+    "id": "f1e7b77d-f62b-468e-b387-222f0ac571c9",
+    "slug": "claude-code",
+    "name": "Claude Code",
+    "logoUrl": "/logos/claude-code.png"
+  },
+  {
+    "id": "c0fe9163-b0d1-4fff-99e7-39927776208e",
+    "slug": "opensearch",
+    "name": "OpenSearch",
+    "logoUrl": "/logos/opensearch.png"
+  },
+  {
+    "id": "455a979b-dd7f-4335-914b-2357ed0d2d62",
+    "slug": "amazon-ses",
+    "name": "Amazon SES",
+    "logoUrl": "/logos/amazon-ses.png"
+  },
+  {
+    "id": "42d01398-cf8a-4816-a614-c6988cb9d9c3",
+    "slug": "tableau",
+    "name": "Tableau",
+    "logoUrl": null
+  },
+  {
+    "id": "59406966-0e82-484b-b1f9-0e6900d04fba",
+    "slug": "hubspot",
+    "name": "HubSpot",
+    "logoUrl": "/logos/hubspot.png"
+  },
+  {
+    "id": "61f6f1ad-b404-4c99-922c-f2871583b0c7",
+    "slug": "timescaledb",
+    "name": "TimescaleDB",
+    "logoUrl": "/logos/timescaledb.png"
+  },
+  {
+    "id": "00e81505-b63f-4e9b-92d7-4c6da93954e3",
+    "slug": "hasura",
+    "name": "Hasura",
+    "logoUrl": null
+  },
+  {
+    "id": "fb6d88d2-ba3e-4d2e-9dd9-e0cf663819c7",
+    "slug": "apache-kafka",
+    "name": "Apache Kafka",
+    "logoUrl": "/logos/apache-kafka.png"
+  },
+  {
+    "id": "3d2eba8a-6523-48b0-b018-c864884dfc41",
+    "slug": "workos",
+    "name": "WorkOS",
+    "logoUrl": null
+  },
+  {
+    "id": "1079e930-7877-42b9-b3ec-b9562d350772",
+    "slug": "ragas",
+    "name": "Ragas",
+    "logoUrl": "/logos/ragas.png"
+  },
+  {
+    "id": "c557542e-41fe-4ae0-9888-b3b2a2767363",
+    "slug": "aws-amplify",
+    "name": "AWS Amplify",
+    "logoUrl": null
+  },
+  {
+    "id": "9a0c3413-f2d4-4b33-9070-c57b8db3920c",
+    "slug": "airbyte",
+    "name": "Airbyte",
+    "logoUrl": null
+  },
+  {
+    "id": "c8edcd68-a14f-428e-bd89-ca01d86e9595",
+    "slug": "shopify-payments",
+    "name": "Shopify Payments",
+    "logoUrl": null
+  },
+  {
+    "id": "1f4ff1a3-6b63-4f75-8bbc-fe63513dad9a",
+    "slug": "digitalocean",
+    "name": "DigitalOcean",
+    "logoUrl": "/logos/digitalocean.png"
+  },
+  {
+    "id": "86720c22-e3d2-4cce-80b9-c0c69375b97d",
+    "slug": "react-native-paper",
+    "name": "React Native Paper",
+    "logoUrl": "/logos/react-native-paper.png"
+  },
+  {
+    "id": "d91f8f0d-2d61-4af1-a433-f00a0d80b4d4",
+    "slug": "temporal",
+    "name": "Temporal",
+    "logoUrl": null
+  },
+  {
+    "id": "9647da38-4c1b-40ee-95fd-3160240d3c4f",
+    "slug": "tomorrow-io",
+    "name": "Tomorrow.io",
+    "logoUrl": null
+  },
+  {
+    "id": "b422a6aa-e754-4a15-831e-ed13f11cb828",
+    "slug": "typesense",
+    "name": "Typesense",
+    "logoUrl": "/logos/typesense.png"
+  },
+  {
+    "id": "b708c6af-6fe2-4799-87e6-5c424ea29cce",
+    "slug": "deepeval",
+    "name": "DeepEval",
+    "logoUrl": "/logos/deepeval.png"
+  },
+  {
+    "id": "8e0a6de6-dc5e-4856-b545-877c10e65dcc",
+    "slug": "nextauth",
+    "name": "NextAuth.js",
+    "logoUrl": "/logos/nextauth.png"
+  },
+  {
+    "id": "f415c667-970d-4869-98a8-2551c90418ce",
+    "slug": "kubernetes",
+    "name": "Kubernetes",
+    "logoUrl": "/logos/kubernetes.png"
+  },
+  {
+    "id": "abd77311-12b0-49d0-86c1-17e24a5dfc05",
+    "slug": "tremor",
+    "name": "Tremor",
+    "logoUrl": "/logos/tremor.png"
+  },
+  {
+    "id": "3227a562-1a71-456c-981a-8520abb030c3",
+    "slug": "postman",
+    "name": "Postman",
+    "logoUrl": null
+  },
+  {
+    "id": "04d28157-8256-461e-a299-37b843aab3fc",
+    "slug": "inngest",
+    "name": "Inngest",
+    "logoUrl": "/logos/inngest.png"
+  },
+  {
+    "id": "eeb7683b-20d5-46f8-ba7c-07e652c6787d",
+    "slug": "payload-cms",
+    "name": "Payload CMS",
+    "logoUrl": "/logos/payload-cms.png"
+  },
+  {
+    "id": "2bd9a43b-c885-4076-a4e3-d7f5ac2ae987",
+    "slug": "django",
+    "name": "Django",
+    "logoUrl": "/logos/django.png"
+  },
+  {
+    "id": "34c1bfeb-f9d4-4014-a211-8dfc9b5bd1f8",
+    "slug": "webflow",
+    "name": "Webflow",
+    "logoUrl": null
+  },
+  {
+    "id": "b6c95e9f-c27c-4997-b73e-116d9ab7fe1d",
+    "slug": "shopify-email",
+    "name": "Shopify Email",
+    "logoUrl": null
+  },
+  {
+    "id": "71c7d3e7-ac6e-4074-aa9e-1311c6a124cc",
+    "slug": "apigee",
+    "name": "Apigee",
+    "logoUrl": null
+  },
+  {
+    "id": "9e0be4df-f755-4c86-ad90-cd32f914442d",
+    "slug": "looker",
+    "name": "Looker",
+    "logoUrl": null
+  },
+  {
+    "id": "234238d4-ce7c-445d-903b-6b1556d6ebd3",
+    "slug": "nestjs",
+    "name": "NestJS",
+    "logoUrl": null
+  },
+  {
+    "id": "ffa09038-98e9-48db-a5ab-4d88646c219d",
+    "slug": "tailwind-ui",
+    "name": "Tailwind UI",
+    "logoUrl": null
+  },
+  {
+    "id": "60c94d46-6ff0-447a-bc47-6ca7f884b05a",
+    "slug": "express",
+    "name": "Express",
+    "logoUrl": null
+  },
+  {
+    "id": "6c77709f-40e4-48a6-80d9-8f87552438ab",
+    "slug": "humanloop",
+    "name": "Humanloop",
+    "logoUrl": null
+  },
+  {
+    "id": "14e52974-5269-41c1-98e3-792108ba1d89",
+    "slug": "courier",
+    "name": "Courier",
+    "logoUrl": null
+  },
+  {
+    "id": "0c28efab-73c4-425b-be6e-9140d21c8083",
+    "slug": "hex",
+    "name": "Hex",
+    "logoUrl": null
+  },
+  {
+    "id": "679d06e1-bef9-4065-a175-a8c422416ca0",
+    "slug": "klaviyo",
+    "name": "Klaviyo",
+    "logoUrl": null
+  },
+  {
+    "id": "8de8de44-a92e-4ac2-9e93-a6187932c913",
+    "slug": "google-bigquery",
+    "name": "Google BigQuery",
+    "logoUrl": null
+  },
+  {
+    "id": "29a9a21a-46d5-4331-a76f-66609a4b9821",
+    "slug": "arize-phoenix",
+    "name": "Arize Phoenix",
+    "logoUrl": "/logos/arize-phoenix.png"
+  },
+  {
+    "id": "3c12bdd1-419d-4931-bc3e-5144b79ae482",
+    "slug": "chart-js",
+    "name": "Chart.js",
+    "logoUrl": "/logos/chart-js.png"
+  },
+  {
+    "id": "097b6249-af48-4614-ac40-1c6d84711d57",
+    "slug": "open-meteo",
+    "name": "Open-Meteo",
+    "logoUrl": null
+  },
+  {
+    "id": "0e74ce28-3752-4d19-ad3f-cc7a55434982",
+    "slug": "pubnub",
+    "name": "PubNub",
+    "logoUrl": null
+  },
+  {
+    "id": "06479da3-1d2e-4824-8f9f-04932e804ae6",
+    "slug": "cloudflare",
+    "name": "Cloudflare",
+    "logoUrl": null
+  },
+  {
+    "id": "8fcdd691-3046-4a35-b440-953864018d0f",
+    "slug": "retool",
+    "name": "Retool",
+    "logoUrl": null
+  },
+  {
+    "id": "9ae821e3-2be6-4209-b2b6-52f566a15944",
+    "slug": "elastic-cloud",
+    "name": "Elastic Cloud",
+    "logoUrl": null
+  },
+  {
+    "id": "bfd4ff59-b594-4bda-860b-a43c8b373570",
+    "slug": "mantine",
+    "name": "Mantine",
+    "logoUrl": "/logos/mantine.png"
+  },
+  {
+    "id": "d8444d10-3622-4a32-b900-26de075d50f1",
+    "slug": "amazon-dynamodb",
+    "name": "Amazon DynamoDB",
+    "logoUrl": null
+  },
+  {
+    "id": "7dba943a-ae50-4cb1-b487-c7dafff18528",
+    "slug": "weatherapi-com",
+    "name": "WeatherAPI.com",
+    "logoUrl": null
+  },
+  {
+    "id": "a78338fb-c1e4-4216-9322-4f1b40fef055",
+    "slug": "anthropic-claude-api",
+    "name": "Anthropic Claude API",
+    "logoUrl": null
+  },
+  {
+    "id": "c25b1435-9f1e-40f4-a273-6197a7821b51",
+    "slug": "google-cloud-storage",
+    "name": "Google Cloud Storage",
+    "logoUrl": null
+  },
+  {
+    "id": "faa2ba14-2c7d-4731-a48c-a39445429b73",
+    "slug": "teachable",
+    "name": "Teachable",
+    "logoUrl": "/logos/teachable.png"
+  },
+  {
+    "id": "4d81a29c-8a6d-478e-b392-98d70214164e",
+    "slug": "bitly",
+    "name": "Bitly",
+    "logoUrl": null
+  },
+  {
+    "id": "5e288041-01bd-48c5-95a6-86629e7d1385",
+    "slug": "mysql",
+    "name": "MySQL",
+    "logoUrl": "/logos/mysql.png"
+  },
+  {
+    "id": "e46c4d3c-140b-49d6-ba6d-881fc8b6f05c",
+    "slug": "vellum",
+    "name": "Vellum",
+    "logoUrl": null
+  },
+  {
+    "id": "c7732096-68a0-4cd2-ab3f-db68ae6eeaec",
+    "slug": "github",
+    "name": "GitHub",
+    "logoUrl": null
+  },
+  {
+    "id": "1d44dbb6-3485-4ec8-a546-dded80e167fb",
+    "slug": "gitbook",
+    "name": "GitBook",
+    "logoUrl": null
+  },
+  {
+    "id": "7cd7406d-b385-49ed-aa3e-500b3137b0ad",
+    "slug": "gcp-vertex-ai",
+    "name": "GCP Vertex AI",
+    "logoUrl": null
+  },
+  {
+    "id": "fec032d6-fff7-4ca4-b96d-2a161d13f216",
+    "slug": "wordpress",
+    "name": "WordPress",
+    "logoUrl": "/logos/wordpress.png"
+  },
+  {
+    "id": "89baed04-c534-4ba6-9a1c-a990347cd6c4",
+    "slug": "fivetran",
+    "name": "Fivetran",
+    "logoUrl": null
+  },
+  {
+    "id": "3c08f4b5-cea1-4f43-9c7c-9e4bbeb8fbde",
+    "slug": "llamaindex",
+    "name": "LlamaIndex",
+    "logoUrl": null
+  },
+  {
+    "id": "b24b8bbe-172b-4f7a-b36d-beb7249ccbca",
+    "slug": "humanfirst",
+    "name": "HumanFirst",
+    "logoUrl": null
+  },
+  {
+    "id": "b327da58-64d5-491c-8058-48de638f6725",
+    "slug": "continue",
+    "name": "Continue",
+    "logoUrl": null
+  },
+  {
+    "id": "89290af7-d7de-4297-837c-559d5d3dc509",
+    "slug": "cube-js",
+    "name": "Cube.js",
+    "logoUrl": null
+  },
+  {
+    "id": "3ce6b591-4da6-4b55-8bcb-c37c8bf82e3d",
+    "slug": "dbt",
+    "name": "dbt",
+    "logoUrl": null
+  },
+  {
+    "id": "c8b5afa5-d6b3-4c89-8ca6-f9781d1618ac",
+    "slug": "helicone",
+    "name": "Helicone",
+    "logoUrl": "/logos/helicone.png"
+  },
+  {
+    "id": "321c6e69-aaf8-4ed2-9a5d-05cf422ce0be",
+    "slug": "react-native",
+    "name": "React Native",
+    "logoUrl": null
+  },
+  {
+    "id": "41abc105-f97c-4c9a-b06e-3bc5c9d7f059",
+    "slug": "convertkit",
+    "name": "ConvertKit",
+    "logoUrl": null
+  },
+  {
+    "id": "4f6ae69d-851f-494e-ab6c-1db8874c1809",
+    "slug": "databricks",
+    "name": "Databricks",
+    "logoUrl": null
+  },
+  {
+    "id": "a5b577ed-9b85-404f-8ce5-90320372f289",
+    "slug": "vercel-ai-sdk",
+    "name": "AI SDK",
+    "logoUrl": null
+  },
+  {
+    "id": "4e478720-cb1e-48d0-b13a-d6bae53a76a4",
+    "slug": "cassandra",
+    "name": "Cassandra",
+    "logoUrl": null
+  },
+  {
+    "id": "f62a6414-7aa5-4696-8edd-7abc16f99830",
+    "slug": "unified-to",
+    "name": "Unified.to",
+    "logoUrl": null
+  },
+  {
+    "id": "15f2cdd6-a114-496b-bd7a-1a8abbe4ad3f",
+    "slug": "nextra",
+    "name": "Nextra",
+    "logoUrl": null
+  },
+  {
+    "id": "8d3d3ae6-e755-4ef7-8c7d-efa170da70ab",
+    "slug": "zendesk",
+    "name": "Zendesk",
+    "logoUrl": null
+  },
+  {
+    "id": "a0ead8a8-93cf-40cf-a7b3-044e3a72723a",
+    "slug": "amazon-eks",
+    "name": "Amazon EKS",
+    "logoUrl": null
+  },
+  {
+    "id": "4290f986-c962-4573-a8f2-561d6dcb0d98",
+    "slug": "bullmq",
+    "name": "BullMQ",
+    "logoUrl": "/logos/bullmq.png"
+  },
+  {
+    "id": "540f6502-1335-442e-a1b9-9b3b03454601",
+    "slug": "wp-engine",
+    "name": "WP Engine",
+    "logoUrl": null
+  },
+  {
+    "id": "2d98d905-245a-434f-9ecc-5f5bc7acdf24",
+    "slug": "snowplow",
+    "name": "Snowplow",
+    "logoUrl": null
+  },
+  {
+    "id": "1fbaaa87-947b-41b3-8089-5c31760feb9c",
+    "slug": "weaviate",
+    "name": "Weaviate",
+    "logoUrl": null
+  },
+  {
+    "id": "8482d891-49b6-4431-868a-cf9420f541f5",
+    "slug": "mulesoft",
+    "name": "MuleSoft",
+    "logoUrl": null
+  },
+  {
+    "id": "7428cb96-693f-4d91-aad1-a224d2ae6c58",
+    "slug": "zapier",
+    "name": "Zapier",
+    "logoUrl": null
+  },
+  {
+    "id": "93a81aaa-e4dd-49a2-9d4b-59cbb84fdecd",
+    "slug": "memberstack",
+    "name": "Memberstack",
+    "logoUrl": null
+  },
+  {
+    "id": "2448bef3-1fed-4241-87a7-bd1fa6a89708",
+    "slug": "promptlayer",
+    "name": "PromptLayer",
+    "logoUrl": null
+  },
+  {
+    "id": "ab5aae9b-fcdc-4d5c-9a48-7baa0448b3a8",
+    "slug": "modal",
+    "name": "Modal",
+    "logoUrl": null
+  },
+  {
+    "id": "ff974d05-afa4-4382-8702-3fcda44a1341",
+    "slug": "fireflies-ai",
+    "name": "Fireflies.ai",
+    "logoUrl": null
+  },
+  {
+    "id": "b4b5f9f8-8a92-45c5-9436-5e65b3d63235",
+    "slug": "confluence",
+    "name": "Confluence",
+    "logoUrl": null
+  },
+  {
+    "id": "9b43065f-078a-42b9-8f04-b3d2b6ec10f1",
+    "slug": "promptfoo",
+    "name": "Promptfoo",
+    "logoUrl": "/logos/promptfoo.png"
+  },
+  {
+    "id": "80806280-8bf4-4486-b4cd-867ea99b2c6a",
+    "slug": "pipedream",
+    "name": "Pipedream",
+    "logoUrl": null
+  },
+  {
+    "id": "b352028a-8978-4d57-af31-046ceca65c10",
+    "slug": "infima",
+    "name": "Infima",
+    "logoUrl": null
+  },
+  {
+    "id": "4e69aa34-eb50-4dfa-8a88-d193795c3bd8",
+    "slug": "keycloak",
+    "name": "Keycloak",
+    "logoUrl": null
+  },
+  {
+    "id": "3c6e57fd-b899-4565-9a19-26bf7fbc89f6",
+    "slug": "mongoose",
+    "name": "Mongoose",
+    "logoUrl": null
+  },
+  {
+    "id": "6aabf85d-88ba-4cdd-ad6c-1ac0ad6705ec",
+    "slug": "read-the-docs",
+    "name": "Read the Docs",
+    "logoUrl": null
+  },
+  {
+    "id": "44f2e6dc-2924-4e36-9b90-b4ce525baea7",
+    "slug": "aws-sagemaker",
+    "name": "AWS SageMaker",
+    "logoUrl": null
+  },
+  {
+    "id": "e99a5b50-001e-4981-a4b8-24b7dd458faa",
+    "slug": "ant-design",
+    "name": "Ant Design",
+    "logoUrl": "/logos/ant-design.png"
+  },
+  {
+    "id": "9b1cdd84-01d5-423d-acf7-7b5f8d893881",
+    "slug": "expo",
+    "name": "Expo",
+    "logoUrl": null
+  },
+  {
+    "id": "5a15d783-ce3c-4e80-863f-6cdd7c4648bf",
+    "slug": "wagtail",
+    "name": "Wagtail",
+    "logoUrl": null
+  },
+  {
+    "id": "5cac24b2-58e9-43d0-b803-d7485f7ddb4c",
+    "slug": "storybook",
+    "name": "Storybook",
+    "logoUrl": null
+  },
+  {
+    "id": "af288b89-b0c4-46a7-8140-8991d2d9d852",
+    "slug": "expo-application-services",
+    "name": "Expo Application Services",
+    "logoUrl": null
+  },
+  {
+    "id": "cc568b04-7064-4719-aab6-82aec07df7fa",
+    "slug": "aws-cognito",
+    "name": "AWS Cognito",
+    "logoUrl": null
+  },
+  {
+    "id": "a900f5c1-0242-42e0-8cbc-83d6d1669ab1",
+    "slug": "nativebase",
+    "name": "NativeBase",
+    "logoUrl": null
+  },
+  {
+    "id": "25b1eda8-cd01-4e9c-b116-81fa8d6f402b",
+    "slug": "amazon-sqs",
+    "name": "Amazon SQS",
+    "logoUrl": null
+  },
+  {
+    "id": "bc1e0d6c-3bf9-4476-8a29-eff529f0b056",
+    "slug": "github-copilot-workspace",
+    "name": "GitHub Copilot Workspace",
+    "logoUrl": null
+  },
+  {
+    "id": "49e29b92-2eb1-475a-bc80-7b0991251fa8",
+    "slug": "hono",
+    "name": "Hono",
+    "logoUrl": "/logos/hono.png"
+  },
+  {
+    "id": "b6639ce4-8d4c-4b2b-88ca-1d47d274777a",
+    "slug": "sendbird",
+    "name": "Sendbird",
+    "logoUrl": null
+  },
+  {
+    "id": "29a2dfc8-1fb9-47a3-9b34-cb43ea18a589",
+    "slug": "contentlayer",
+    "name": "Contentlayer",
+    "logoUrl": null
+  },
+  {
+    "id": "1c30a436-cc01-4b39-a309-9822f29c6baa",
+    "slug": "amazon-kinesis",
+    "name": "Amazon Kinesis",
+    "logoUrl": null
+  },
+  {
+    "id": "53f46f1a-9b38-4691-a401-c8a518a0ba39",
+    "slug": "postgrest",
+    "name": "PostgREST",
+    "logoUrl": null
+  },
+  {
+    "id": "e8a44eab-1034-4338-8309-091d83740141",
+    "slug": "sequelize",
+    "name": "Sequelize",
+    "logoUrl": "/logos/sequelize.png"
+  },
+  {
+    "id": "e510d284-d027-4f4c-a8ee-53f8190c51bf",
+    "slug": "mlflow",
+    "name": "MLflow",
+    "logoUrl": null
+  },
+  {
+    "id": "64e20a5b-9e08-4f29-a452-942a4eda2c78",
+    "slug": "autonomiq",
+    "name": "Autonomiq",
+    "logoUrl": null
+  },
+  {
+    "id": "fb6bc064-e8f2-4ac8-aaca-5832fff9f5d3",
+    "slug": "fastify",
+    "name": "Fastify",
+    "logoUrl": null
+  },
+  {
+    "id": "8cb3407d-8a77-442c-817d-262a6d585e3f",
+    "slug": "apify",
+    "name": "Apify",
+    "logoUrl": null
+  },
+  {
+    "id": "8547e542-140d-4b72-8cf2-337c520ad93c",
+    "slug": "airtable",
+    "name": "Airtable",
+    "logoUrl": null
+  },
+  {
+    "id": "699d04b6-c9c5-49a7-a48f-ff6de6a1ff77",
+    "slug": "mongodb-atlas",
+    "name": "MongoDB Atlas",
+    "logoUrl": "/logos/mongodb-atlas.png"
+  },
+  {
+    "id": "d4e90aa0-191f-49e1-a375-e45b2cc9560f",
+    "slug": "faunadb",
+    "name": "FaunaDB",
+    "logoUrl": null
+  },
+  {
+    "id": "93628047-17bd-4993-acbc-8f1ef5b3bc34",
+    "slug": "readme",
+    "name": "ReadMe",
+    "logoUrl": null
+  },
+  {
+    "id": "b0244048-7b62-4ae4-a249-37b95ac5746d",
+    "slug": "openapi",
+    "name": "OpenAPI",
+    "logoUrl": null
+  },
+  {
+    "id": "41f04ed2-8c03-4f20-ab52-110857712a78",
+    "slug": "workato",
+    "name": "Workato",
+    "logoUrl": null
+  },
+  {
+    "id": "929828b8-a0a1-468c-8d81-157c88c8facd",
+    "slug": "zuplo",
+    "name": "Zuplo",
+    "logoUrl": null
+  },
+  {
+    "id": "7c221cb2-9e25-4a59-a695-a0d2b0fbe061",
+    "slug": "searchanise",
+    "name": "Searchanise",
+    "logoUrl": null
+  },
+  {
+    "id": "6f0693a2-d70d-421d-9686-53423ebfedee",
+    "slug": "amazon-redshift",
+    "name": "Amazon Redshift",
+    "logoUrl": null
+  },
+  {
+    "id": "9a7fa2bf-0f21-4cd8-91a7-538de45f16bf",
+    "slug": "decap-cms",
+    "name": "Decap CMS",
+    "logoUrl": "/logos/decap-cms.png"
+  },
+  {
+    "id": "a368e45a-dab2-45e7-98f7-889bdf47dff3",
+    "slug": "mintlify",
+    "name": "Mintlify",
+    "logoUrl": null
+  },
+  {
+    "id": "0bdc06cf-7563-4ab1-b0a4-720897e1e943",
+    "slug": "uptrain",
+    "name": "UpTrain",
+    "logoUrl": null
+  },
+  {
+    "id": "02e9f38e-2d81-4b5c-9a61-8741771b70de",
+    "slug": "einstein-ai",
+    "name": "Einstein AI",
+    "logoUrl": null
+  },
+  {
+    "id": "ec4a665e-10f7-469b-a853-8af38932474a",
+    "slug": "backblaze",
+    "name": "Backblaze",
+    "logoUrl": null
+  },
+  {
+    "id": "07fef52a-53b2-4b63-9d3f-11c58d3d69bb",
+    "slug": "new-relic",
+    "name": "New Relic",
+    "logoUrl": null
+  },
+  {
+    "id": "54eb26ef-030a-4a4d-a690-5b0ecdb243e7",
+    "slug": "customer-io",
+    "name": "Customer.io",
+    "logoUrl": null
+  },
+  {
+    "id": "dc1b9ed9-d13c-4af5-a310-595fb5aa152a",
+    "slug": "nats",
+    "name": "NATS",
+    "logoUrl": null
+  },
+  {
+    "id": "6040755f-a783-4c73-8f25-4ddf06a4372f",
+    "slug": "sendinblue",
+    "name": "Sendinblue",
+    "logoUrl": null
+  },
+  {
+    "id": "26357984-595d-4a34-b410-16c7357e76f6",
+    "slug": "opentelemetry",
+    "name": "OpenTelemetry",
+    "logoUrl": "/logos/opentelemetry.png"
+  },
+  {
+    "id": "d8e8fb75-196c-4d24-a8ee-ef02e0efb929",
+    "slug": "patronus-ai",
+    "name": "Patronus AI",
+    "logoUrl": "/logos/patronus-ai.png"
+  },
+  {
+    "id": "2ffca74a-ad71-4cec-b38b-b51593dc1c65",
+    "slug": "mapbox",
+    "name": "Mapbox",
+    "logoUrl": null
+  },
+  {
+    "id": "59bb9b43-150e-414b-87bd-f4ad3f094e3c",
+    "slug": "sqlite",
+    "name": "SQLite",
+    "logoUrl": null
+  },
+  {
+    "id": "6c2636cc-3fba-4702-9ab7-a956ca4b73bb",
+    "slug": "apidog",
+    "name": "Apidog",
+    "logoUrl": null
+  },
+  {
+    "id": "ad5cee7a-7691-426a-a1c4-cb1e89478ef8",
+    "slug": "llama",
+    "name": "Llama",
+    "logoUrl": null
+  },
+  {
+    "id": "bfb8194c-682e-4183-a0c8-7b7dbd0120fd",
+    "slug": "pgvector",
+    "name": "pgvector",
+    "logoUrl": null
+  },
+  {
+    "id": "0eccc4e6-702a-4344-9837-bd3ec11f4e0f",
+    "slug": "notion",
+    "name": "Notion",
+    "logoUrl": null
+  },
+  {
+    "id": "67e994d2-b6f0-4912-948a-187beb0eaac4",
+    "slug": "e2b",
+    "name": "e2b",
+    "logoUrl": null
+  },
+  {
+    "id": "b203501e-576e-4f9f-b999-cfc3c52b84c9",
+    "slug": "gong",
+    "name": "Gong",
+    "logoUrl": null
+  },
+  {
+    "id": "58caaeb4-2e7f-488c-854f-9ef58aeb3df7",
+    "slug": "replicache",
+    "name": "Replicache",
+    "logoUrl": null
+  },
+  {
+    "id": "861edcf4-ef3a-4ce7-bc53-40e33f571b03",
+    "slug": "uploadthing",
+    "name": "UploadThing",
+    "logoUrl": "/logos/uploadthing.png"
+  },
+  {
+    "id": "0c295e7c-ba5b-43e8-aceb-d5af81eeca07",
+    "slug": "clicky",
+    "name": "Clicky",
+    "logoUrl": null
+  },
+  {
+    "id": "bb046738-7d7e-433d-8870-1ebf72e86547",
+    "slug": "upstash",
+    "name": "Upstash",
+    "logoUrl": null
+  },
+  {
+    "id": "2da0abb8-f237-4f04-aaf7-042c09589e98",
+    "slug": "firebolt",
+    "name": "Firebolt",
+    "logoUrl": null
+  },
+  {
+    "id": "71f3d723-ac13-4341-9659-d78e3be56667",
+    "slug": "tinacms",
+    "name": "TinaCMS",
+    "logoUrl": null
+  },
+  {
+    "id": "2c43cb14-2028-48ae-b66f-9466befdc82a",
+    "slug": "amazon-ecs",
+    "name": "Amazon ECS",
+    "logoUrl": null
+  },
+  {
+    "id": "383df5ac-bc38-4b61-85b2-1efbf5f2ff89",
+    "slug": "lmsys-chatbot-arena",
+    "name": "LMSYS Chatbot Arena",
+    "logoUrl": null
+  },
+  {
+    "id": "f9049616-989f-45bd-a094-4dae4d4dc6bd",
+    "slug": "trulens",
+    "name": "TruLens",
+    "logoUrl": null
+  },
+  {
+    "id": "99c64a09-d678-4bd0-b4a6-1e8713285e50",
+    "slug": "aider",
+    "name": "Aider",
+    "logoUrl": "/logos/aider.png"
+  },
+  {
+    "id": "9e5862c4-c49a-411a-81c6-1caa9d58a9e8",
+    "slug": "react-spectrum",
+    "name": "React Spectrum",
+    "logoUrl": null
+  },
+  {
+    "id": "851edae9-4d40-41f4-97e3-c795e83acbcf",
+    "slug": "aws-appsync",
+    "name": "AWS AppSync",
+    "logoUrl": null
+  },
+  {
+    "id": "b8587b1f-ec80-438f-8467-9d2d812abdf0",
+    "slug": "workable",
+    "name": "Workable",
+    "logoUrl": null
+  },
+  {
+    "id": "86374af9-695c-4816-8ed7-3bdef1ced9db",
+    "slug": "hibernate",
+    "name": "Hibernate",
+    "logoUrl": null
+  },
+  {
+    "id": "82cb8626-ea37-4aa4-86a4-7ab656414e0f",
+    "slug": "uploadcare",
+    "name": "Uploadcare",
+    "logoUrl": null
+  },
+  {
+    "id": "28ae5c18-08b2-450a-8386-0d11177f7efc",
+    "slug": "sphinx",
+    "name": "Sphinx",
+    "logoUrl": null
+  },
+  {
+    "id": "6d9792d0-a843-4456-b1e6-724e1368f6ec",
+    "slug": "starlight",
+    "name": "Starlight",
+    "logoUrl": null
+  },
+  {
+    "id": "2e771b6d-45cc-490b-bc67-fa2573d5f2df",
+    "slug": "autogen",
+    "name": "AutoGen",
+    "logoUrl": null
+  },
+  {
+    "id": "4f63d0e1-91c2-4654-8d6d-564fa14fb17f",
+    "slug": "azure-openai-service",
+    "name": "Azure OpenAI Service",
+    "logoUrl": null
+  },
+  {
+    "id": "1a938472-8e7a-4ff3-90a4-9313a6a2f501",
+    "slug": "bubble",
+    "name": "Bubble",
+    "logoUrl": null
+  },
+  {
+    "id": "e2a03dd8-bbd1-4ac4-84bd-ec99c4b48d68",
+    "slug": "trigger-dev",
+    "name": "Trigger.dev",
+    "logoUrl": "/logos/trigger-dev.png"
+  },
+  {
+    "id": "42a2f26d-4b33-4750-9f76-4e7bfb289f48",
+    "slug": "slack",
+    "name": "Slack",
+    "logoUrl": null
+  },
+  {
+    "id": "a0100926-edaa-4d98-93e1-c580e324a71e",
+    "slug": "convex",
+    "name": "Convex",
+    "logoUrl": null
+  },
+  {
+    "id": "d26a237c-2164-4d75-b7e4-5db32c3ee13e",
+    "slug": "squarespace",
+    "name": "Squarespace",
+    "logoUrl": null
+  },
+  {
+    "id": "8e7c270c-32d9-4a1a-bc46-b64ca986eb00",
+    "slug": "apache-superset",
+    "name": "Apache Superset",
+    "logoUrl": null
+  },
+  {
+    "id": "096799d0-f0e5-4a93-bc66-f79402945128",
+    "slug": "hightouch",
+    "name": "Hightouch",
+    "logoUrl": null
+  },
+  {
+    "id": "d32199af-6343-427b-8fbb-4fd4a70bdab6",
+    "slug": "directus",
+    "name": "Directus",
+    "logoUrl": null
+  },
+  {
+    "id": "4e2cf7f9-130f-4725-978e-5b4a6dd0f2f3",
+    "slug": "react-grid-layout",
+    "name": "React Grid Layout",
+    "logoUrl": null
+  },
+  {
+    "id": "9778d896-8dca-4395-a6e3-22fa42e8022b",
+    "slug": "rasa",
+    "name": "Rasa",
+    "logoUrl": null
+  },
+  {
+    "id": "1715826a-b01e-4f3e-8fdc-93485ed22dfa",
+    "slug": "vectara",
+    "name": "Vectara",
+    "logoUrl": null
+  },
+  {
+    "id": "8d5377e8-2d86-48d3-98c7-727b36b6b47c",
+    "slug": "braze",
+    "name": "Braze",
+    "logoUrl": null
+  },
+  {
+    "id": "3c19207d-b5f2-418a-ad12-97dc7f82ca76",
+    "slug": "riverpod",
+    "name": "Riverpod",
+    "logoUrl": null
+  },
+  {
+    "id": "438173f9-ed4f-4f91-a9be-16e9a05a098e",
+    "slug": "jotai",
+    "name": "Jotai",
+    "logoUrl": null
+  },
+  {
+    "id": "c1c27ecf-cb48-415f-a93f-64f40f71b921",
+    "slug": "apache-druid",
+    "name": "Apache Druid",
+    "logoUrl": null
+  },
+  {
+    "id": "9c6d095a-f641-4603-a6a5-d98ed72bf4bd",
+    "slug": "apache-airflow",
+    "name": "Apache Airflow",
+    "logoUrl": null
+  },
+  {
+    "id": "3e61830a-7e77-4c26-8c94-ad7886786f93",
+    "slug": "honeycomb",
+    "name": "Honeycomb",
+    "logoUrl": null
+  },
+  {
+    "id": "ae1f870a-113c-43b9-928f-91d38dd3d82e",
+    "slug": "aws-bedrock",
+    "name": "AWS Bedrock",
+    "logoUrl": null
+  },
+  {
+    "id": "7cf25738-cbeb-4887-846a-0b8bf5abdc17",
+    "slug": "azure-app-service",
+    "name": "Azure App Service",
+    "logoUrl": null
+  },
+  {
+    "id": "01ac3918-0eb2-49bc-bec4-f574788ea4c8",
+    "slug": "truera",
+    "name": "TruEra",
+    "logoUrl": null
+  },
+  {
+    "id": "c82daf97-93f5-41fd-ab49-4ce037c9e917",
+    "slug": "langcheck",
+    "name": "LangCheck",
+    "logoUrl": null
+  },
+  {
+    "id": "021c2dbf-2a05-49b7-908e-d2500fed654c",
+    "slug": "codex-cli",
+    "name": "Codex CLI",
+    "logoUrl": "/logos/codex-cli.png"
+  },
+  {
+    "id": "f42c88ea-59a8-4abb-9c10-f83bd43d851d",
+    "slug": "react-aria",
+    "name": "React Aria",
+    "logoUrl": null
+  },
+  {
+    "id": "d0c0d43f-fda2-4352-af60-a2b84ab54336",
+    "slug": "visual-crossing-weather",
+    "name": "Visual Crossing Weather",
+    "logoUrl": null
+  },
+  {
+    "id": "57266e35-9b29-4c24-af07-0f2725770975",
+    "slug": "openrouter",
+    "name": "OpenRouter",
+    "logoUrl": null
+  },
+  {
+    "id": "0ab9ccfc-079c-4d80-b38f-10c44a131a78",
+    "slug": "vapi",
+    "name": "Vapi",
+    "logoUrl": null
+  },
+  {
+    "id": "6888e7d8-ed6e-4318-a42e-d37c4d3e6cca",
+    "slug": "pagefind",
+    "name": "Pagefind",
+    "logoUrl": null
+  },
+  {
+    "id": "b636fccf-0c24-4263-891e-cc04743aeada",
+    "slug": "n8n",
+    "name": "n8n",
+    "logoUrl": null
+  },
+  {
+    "id": "d94ffb95-1de1-4e77-8d39-372f4fd04e82",
+    "slug": "remix",
+    "name": "Remix",
+    "logoUrl": null
+  },
+  {
+    "id": "261a39be-bdb9-462e-a531-e1a3a863602a",
+    "slug": "xstate",
+    "name": "XState",
+    "logoUrl": null
+  },
+  {
+    "id": "834194fc-efb8-4770-980b-cbc60f661965",
+    "slug": "apache-pinot",
+    "name": "Apache Pinot",
+    "logoUrl": null
+  },
+  {
+    "id": "f7caefcc-e585-42b5-a961-a97eaf2729d5",
+    "slug": "google-data-studio",
+    "name": "Google Data Studio",
+    "logoUrl": null
+  },
+  {
+    "id": "24244a40-cdc9-4ab7-b709-8f266b38adc7",
+    "slug": "docfx",
+    "name": "DocFX",
+    "logoUrl": null
+  },
+  {
+    "id": "147d7733-b73b-46c0-9212-58d883dffd97",
+    "slug": "cloudflare-pages",
+    "name": "Cloudflare Pages",
+    "logoUrl": "/logos/cloudflare-pages.png"
+  },
+  {
+    "id": "e0328193-2802-45a0-af37-c0d3399d43b5",
+    "slug": "openhands",
+    "name": "OpenHands",
+    "logoUrl": "/logos/openhands.png"
+  },
+  {
+    "id": "7bc7a095-61f5-43a1-97b0-c63d35443a60",
+    "slug": "flutter",
+    "name": "Flutter",
+    "logoUrl": null
+  },
+  {
+    "id": "4a18699e-17a6-4af6-a626-af515b413b4c",
+    "slug": "tamagui",
+    "name": "Tamagui",
+    "logoUrl": null
+  },
+  {
+    "id": "4d967c94-3ea4-4722-bb95-2425f1fd1398",
+    "slug": "primereact",
+    "name": "PrimeReact",
+    "logoUrl": null
+  },
+  {
+    "id": "a8e055bd-ee9c-4aa6-b007-f0055d8ea82b",
+    "slug": "apache-echarts",
+    "name": "Apache ECharts",
+    "logoUrl": null
+  },
+  {
+    "id": "0683f9a9-97d5-45bf-87e3-bc88f2a88b97",
+    "slug": "react-bootstrap",
+    "name": "React Bootstrap",
+    "logoUrl": null
+  },
+  {
+    "id": "6bd4b00d-c497-4411-93bb-fa3617c1bfd0",
+    "slug": "graphql-yoga",
+    "name": "GraphQL Yoga",
+    "logoUrl": null
+  },
+  {
+    "id": "f4ab0a4a-b02a-4c68-92a0-b2aa1f3304ee",
+    "slug": "nginx",
+    "name": "NGINX",
+    "logoUrl": null
+  },
+  {
+    "id": "a2e71db3-2dc7-4079-9f92-539653c7f979",
+    "slug": "nhost",
+    "name": "Nhost",
+    "logoUrl": null
+  },
+  {
+    "id": "da7c0c0b-3707-4c8b-b3af-6d87fa7989ed",
+    "slug": "nango",
+    "name": "Nango",
+    "logoUrl": null
+  },
+  {
+    "id": "24133629-8756-4db7-a016-b4cbdfc781ca",
+    "slug": "beehiiv",
+    "name": "Beehiiv",
+    "logoUrl": null
+  },
+  {
+    "id": "f194f575-9950-4479-bacf-52f1857d63d5",
+    "slug": "bootstrap",
+    "name": "Bootstrap",
+    "logoUrl": "/logos/bootstrap.png"
+  },
+  {
+    "id": "32147768-1b95-46ea-ab1b-5b95a1709256",
+    "slug": "docsearch",
+    "name": "DocSearch",
+    "logoUrl": null
+  },
+  {
+    "id": "e2684bc3-0b07-4949-a69f-0b17ff71ab05",
+    "slug": "knex-js",
+    "name": "Knex.js",
+    "logoUrl": null
+  },
+  {
+    "id": "622fbf96-865f-49ad-9b51-44ada1a371f6",
+    "slug": "minio",
+    "name": "MinIO",
+    "logoUrl": null
+  },
+  {
+    "id": "c8ee06a8-3872-4a7a-a525-8ce1ca66633f",
+    "slug": "grafana",
+    "name": "Grafana",
+    "logoUrl": null
+  },
+  {
+    "id": "49334a12-7b15-440e-8f23-b7fd0fc8e5ed",
+    "slug": "sentry",
+    "name": "Sentry",
+    "logoUrl": "/logos/sentry.png"
+  },
+  {
+    "id": "651d359d-27d1-484b-9db6-c78ae91898f3",
+    "slug": "materialize",
+    "name": "Materialize",
+    "logoUrl": null
+  },
+  {
+    "id": "10c5ef39-b137-4612-a35c-edd75adae0fd",
+    "slug": "keystonejs",
+    "name": "KeystoneJS",
+    "logoUrl": null
+  },
+  {
+    "id": "8d6b4126-2ea1-43c6-8a36-3ac1f2d53e12",
+    "slug": "azure-static-web-apps",
+    "name": "Azure Static Web Apps",
+    "logoUrl": null
+  },
+  {
+    "id": "f4e8757f-3404-4de0-9548-6d15cb4df8bb",
+    "slug": "hugging-face",
+    "name": "Hugging Face",
+    "logoUrl": "/logos/hugging-face.png"
+  },
+  {
+    "id": "083202d4-b521-4bb0-94b8-4e22eb110e7e",
+    "slug": "cline",
+    "name": "Cline",
+    "logoUrl": "/logos/cline.png"
+  },
+  {
+    "id": "897d7b9f-461b-4347-b398-8b6a84f7bb11",
+    "slug": "flowbite",
+    "name": "Flowbite",
+    "logoUrl": null
+  },
+  {
+    "id": "29e38407-45cb-4cb3-9ba3-36525eaebe81",
+    "slug": "redoc",
+    "name": "Redoc",
+    "logoUrl": null
+  },
+  {
+    "id": "21652fb8-1456-4ace-9e95-9baf0723d60e",
+    "slug": "shiki",
+    "name": "Shiki",
+    "logoUrl": null
+  },
+  {
+    "id": "89d1786b-c93d-4961-8820-e3a2758749cb",
+    "slug": "azure-cosmos-db",
+    "name": "Azure Cosmos DB",
+    "logoUrl": null
+  },
+  {
+    "id": "db00c1b7-fe7c-42d9-b442-5d8fd74ac1df",
+    "slug": "axios",
+    "name": "Axios",
+    "logoUrl": null
+  },
+  {
+    "id": "980cb31c-a9df-41db-9fad-9223bb369738",
+    "slug": "swagger-openapi",
+    "name": "Swagger/OpenAPI",
+    "logoUrl": null
+  },
+  {
+    "id": "79d8f02d-1f9b-42ff-97ee-bc54fcb73e5f",
+    "slug": "paddle",
+    "name": "Paddle",
+    "logoUrl": "/logos/paddle.png"
+  },
+  {
+    "id": "de639113-5a0a-4136-a51b-9e3eb3546a12",
+    "slug": "mailpoet",
+    "name": "MailPoet",
+    "logoUrl": null
+  },
+  {
+    "id": "a221b92a-c980-4193-9505-07cf12e7d7e8",
+    "slug": "cohere",
+    "name": "Cohere",
+    "logoUrl": null
+  },
+  {
+    "id": "47b25828-02f2-4426-96b6-aa12f31191fa",
+    "slug": "elasticpress",
+    "name": "ElasticPress",
+    "logoUrl": null
+  }
+]

@@ -1,0 +1,139 @@
+[
+  {
+    "slug": "devtools",
+    "name": "Devtools",
+    "subcategories": [
+      {
+        "slug": "auth",
+        "name": "Authentication"
+      },
+      {
+        "slug": "database",
+        "name": "Database"
+      },
+      {
+        "slug": "orm",
+        "name": "ORM / Data Access"
+      },
+      {
+        "slug": "email",
+        "name": "Email"
+      },
+      {
+        "slug": "payments",
+        "name": "Payments"
+      },
+      {
+        "slug": "storage",
+        "name": "File Storage"
+      },
+      {
+        "slug": "hosting",
+        "name": "Hosting / Deployment"
+      },
+      {
+        "slug": "styling",
+        "name": "CSS / Styling"
+      },
+      {
+        "slug": "ui-components",
+        "name": "UI Components"
+      },
+      {
+        "slug": "state",
+        "name": "State Management"
+      },
+      {
+        "slug": "api",
+        "name": "API Framework"
+      },
+      {
+        "slug": "cms",
+        "name": "CMS"
+      },
+      {
+        "slug": "search",
+        "name": "Search"
+      },
+      {
+        "slug": "analytics",
+        "name": "Analytics"
+      },
+      {
+        "slug": "monitoring",
+        "name": "Monitoring / Error Tracking"
+      },
+      {
+        "slug": "ai",
+        "name": "AI / LLM Integration"
+      },
+      {
+        "slug": "realtime",
+        "name": "Realtime"
+      },
+      {
+        "slug": "testing",
+        "name": "Testing"
+      },
+      {
+        "slug": "ci-cd",
+        "name": "CI/CD"
+      },
+      {
+        "slug": "jobs",
+        "name": "Background Jobs"
+      },
+      {
+        "slug": "notifications",
+        "name": "Notifications"
+      },
+      {
+        "slug": "llm-coding-agents",
+        "name": "LLM Coding Agents"
+      },
+      {
+        "slug": "llm-observability",
+        "name": "LLM Observability"
+      },
+      {
+        "slug": "llm-evals",
+        "name": "LLM Evals"
+      }
+    ]
+  },
+  {
+    "slug": "salestech",
+    "name": "Salestech",
+    "subcategories": []
+  },
+  {
+    "slug": "martech",
+    "name": "Martech",
+    "subcategories": []
+  },
+  {
+    "slug": "fintech",
+    "name": "Fintech",
+    "subcategories": []
+  },
+  {
+    "slug": "hr-tech",
+    "name": "HR Tech",
+    "subcategories": []
+  },
+  {
+    "slug": "healthcare",
+    "name": "Healthcare",
+    "subcategories": []
+  },
+  {
+    "slug": "edtech",
+    "name": "Edtech",
+    "subcategories": []
+  },
+  {
+    "slug": "cybersecurity",
+    "name": "Cybersecurity",
+    "subcategories": []
+  }
+]
